@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sitesettings SYSTEM "sitesettings.dtd">
+<!--Adobe GoLive settings file-->
+<sitesettings section="siteServer" version="1.0">
+	<attributes>
+		<attribute name="ActiveServer" value="BestWeb"/>
+		<list name="SiteServerList">
+			<item>
+				<attribute name="active" value="yes"/>
+				<attribute name="category" value="local"/>
+				<attribute name="globalId" value="2"/>
+				<attribute name="id" value="0"/>
+				<attribute name="name" value="BestWeb"/>
+				<attribute name="optionAlive" value="NO"/>
+				<attribute name="optionISO" value="YES"/>
+				<attribute name="optionPassive" value="YES"/>
+				<attribute name="optionProxyPublish" value="NO"/>
+				<attribute name="optionResolve" value="YES"/>
+				<attribute name="password" value="ad2c4ecdaccd"/>
+				<attribute name="savePassword" value="yes"/>
+				<attribute name="siteId" value="0"/>
+				<attribute name="timestamp" value="1105593138"/>
+				<attribute name="url" value="ftp://ftp.bestweb.net/public_html/marnen/"/>
+				<attribute name="urlServerAbs" value="yes"/>
+				<attribute name="username" value="626b6f736572"/>
+				<attribute name="version" value="3"/>
+			</item>
+		</list>
+		<list name="options"/>
+		<attribute name="useSiteSettings" value="no"/>
+	</attributes>
+</sitesettings>

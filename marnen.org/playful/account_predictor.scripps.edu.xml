@@ -1,0 +1,8 @@
+<account>
+    <master_url>http://predictor.scripps.edu/</master_url>
+    <authenticator>41e9338bac62c8408be3d0d8ad407062</authenticator>
+    <project_name>Predictor@home</project_name>
+<project_preferences>
+<resource_share>100</resource_share>
+</project_preferences>
+</account>

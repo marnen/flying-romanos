@@ -1,0 +1,365 @@
+<?xml version='1.0'?>
+<!--  If you are running a bot please visit this policy page outlining rules you must respect. http://www.livejournal.com/bots/  --><rdf:RDF
+   xml:lang="en"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <foaf:Person>
+    <foaf:nick>marnen</foaf:nick>
+    <foaf:dateOfBirth>1974-10-10</foaf:dateOfBirth>
+    <foaf:mbox_sha1sum>00d6e94b4be7254a2b90981fd3a4441488f9e7a1</foaf:mbox_sha1sum>
+    <foaf:page>
+      <foaf:Document rdf:about="http://www.livejournal.com/userinfo.bml?user=marnen">
+        <dc:title>LiveJournal.com Profile</dc:title>
+        <dc:description>Full LiveJournal.com profile, including information such as interests and bio.</dc:description>
+      </foaf:Document>
+    </foaf:page>
+    <foaf:icqChatID>35676799</foaf:icqChatID>
+    <foaf:aimChatID>Marnen</foaf:aimChatID>
+    <foaf:yahooChatID>marnenlk</foaf:yahooChatID>
+    <foaf:weblog rdf:resource="http://www.livejournal.com/users/marnen/"/>
+    <foaf:homepage rdf:resource="http://www.marnen.org" dc:title="" />
+    <foaf:schoolHomepage rdf:resource="http://www.purchase.edu"/>
+    <foaf:interest dc:title="anne bishop" />
+    <foaf:interest dc:title="archery" />
+    <foaf:interest dc:title="arthur conan doyle" />
+    <foaf:interest dc:title="barefoot" />
+    <foaf:interest dc:title="bdsm" />
+    <foaf:interest dc:title="blackmore&apos;s night" />
+    <foaf:interest dc:title="bottom" />
+    <foaf:interest dc:title="burning man" />
+    <foaf:interest dc:title="calligraphy" />
+    <foaf:interest dc:title="classical music" />
+    <foaf:interest dc:title="coldfusion" />
+    <foaf:interest dc:title="composing" />
+    <foaf:interest dc:title="computers" />
+    <foaf:interest dc:title="constructed languages" />
+    <foaf:interest dc:title="contact improvisation" />
+    <foaf:interest dc:title="contra dancing" />
+    <foaf:interest dc:title="cooking" />
+    <foaf:interest dc:title="cycling" />
+    <foaf:interest dc:title="david eddings" />
+    <foaf:interest dc:title="dom" />
+    <foaf:interest dc:title="early music" />
+    <foaf:interest dc:title="english country dance" />
+    <foaf:interest dc:title="esperanto" />
+    <foaf:interest dc:title="fantasy" />
+    <foaf:interest dc:title="fencing" />
+    <foaf:interest dc:title="fiddle" />
+    <foaf:interest dc:title="flute" />
+    <foaf:interest dc:title="folk dancing" />
+    <foaf:interest dc:title="folk music" />
+    <foaf:interest dc:title="gamelan" />
+    <foaf:interest dc:title="genealogy" />
+    <foaf:interest dc:title="geocaching" />
+    <foaf:interest dc:title="graphic design" />
+    <foaf:interest dc:title="history" />
+    <foaf:interest dc:title="judaism" />
+    <foaf:interest dc:title="klingon" />
+    <foaf:interest dc:title="languages" />
+    <foaf:interest dc:title="libertarianism" />
+    <foaf:interest dc:title="linguistics" />
+    <foaf:interest dc:title="ljmaps_marnen" />
+    <foaf:interest dc:title="mac os" />
+    <foaf:interest dc:title="mac os x" />
+    <foaf:interest dc:title="macintosh" />
+    <foaf:interest dc:title="middle ages" />
+    <foaf:interest dc:title="morris dancing" />
+    <foaf:interest dc:title="movies" />
+    <foaf:interest dc:title="music" />
+    <foaf:interest dc:title="mystery" />
+    <foaf:interest dc:title="naturism" />
+    <foaf:interest dc:title="no television" />
+    <foaf:interest dc:title="nudism" />
+    <foaf:interest dc:title="organ" />
+    <foaf:interest dc:title="os x" />
+    <foaf:interest dc:title="paganism" />
+    <foaf:interest dc:title="palm" />
+    <foaf:interest dc:title="palm os" />
+    <foaf:interest dc:title="pennsic" />
+    <foaf:interest dc:title="perl" />
+    <foaf:interest dc:title="photography" />
+    <foaf:interest dc:title="php" />
+    <foaf:interest dc:title="piano" />
+    <foaf:interest dc:title="polyamory" />
+    <foaf:interest dc:title="programming" />
+    <foaf:interest dc:title="recorder" />
+    <foaf:interest dc:title="religion" />
+    <foaf:interest dc:title="sca" />
+    <foaf:interest dc:title="sci-fi" />
+    <foaf:interest dc:title="science fiction" />
+    <foaf:interest dc:title="scottish country dance" />
+    <foaf:interest dc:title="sensuality" />
+    <foaf:interest dc:title="sexuality" />
+    <foaf:interest dc:title="sherlock holmes" />
+    <foaf:interest dc:title="skiing" />
+    <foaf:interest dc:title="star trek" />
+    <foaf:interest dc:title="sub" />
+    <foaf:interest dc:title="switch" />
+    <foaf:interest dc:title="tablet weaving" />
+    <foaf:interest dc:title="theater" />
+    <foaf:interest dc:title="theatre" />
+    <foaf:interest dc:title="tolkien" />
+    <foaf:interest dc:title="top" />
+    <foaf:interest dc:title="typography" />
+    <foaf:interest dc:title="unicode" />
+    <foaf:interest dc:title="viola" />
+    <foaf:interest dc:title="violin" />
+    <foaf:interest dc:title="weaving" />
+    <foaf:interest dc:title="web design" />
+    <foaf:interest dc:title="zendo" />
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>ciaranmacleod</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/ciaranmacleod/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/ciaranmacleod/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>tetsujinnooni</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/tetsujinnooni/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/tetsujinnooni/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>thursdayschild</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/thursdayschild/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/thursdayschild/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>collwen</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/collwen/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/collwen/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>featheredfrog</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/featheredfrog/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/featheredfrog/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>iambliss</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/iambliss/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/iambliss/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>rubythered</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/rubythered/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/rubythered/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>fallenlibrarian</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/fallenlibrarian/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/fallenlibrarian/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>saravit</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/saravit/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/saravit/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>dicechucker</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/dicechucker/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/dicechucker/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>arsayalalyur</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/arsayalalyur/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/arsayalalyur/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>princessakasha</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/princessakasha/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/princessakasha/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>echo_eriol</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/echo_eriol/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/echo_eriol/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>faerymistress</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/faerymistress/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/faerymistress/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>curlyeric</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/curlyeric/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/curlyeric/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>stefka</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/stefka/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/stefka/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>claybird</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/claybird/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/claybird/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>auntiegrizelda</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/auntiegrizelda/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/auntiegrizelda/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>lilianafriendly</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/lilianafriendly/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/lilianafriendly/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>ryonashenraven</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/ryonashenraven/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/ryonashenraven/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>pickledtink</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/pickledtink/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/pickledtink/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>songspell</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/songspell/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/songspell/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>saurval</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/saurval/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/saurval/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>chickipu_no_oni</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/chickipu_no_oni/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/chickipu_no_oni/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>volatilefiona</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/volatilefiona/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/volatilefiona/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>lostsidhe</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/lostsidhe/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/lostsidhe/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>salliesandbags</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/salliesandbags/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/salliesandbags/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>aliyna</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/aliyna/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/aliyna/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>jaenelle_sadi</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/jaenelle_sadi/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/jaenelle_sadi/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>purpura</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/purpura/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/purpura/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>cellio</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/cellio/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/cellio/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>beetiger</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/beetiger/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/beetiger/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>terulia</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/terulia/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/terulia/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>weddedbliss</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/weddedbliss/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/weddedbliss/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>manycolored</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/manycolored/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/manycolored/"/>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:nick>blaisepascal</foaf:nick>
+        <rdfs:seeAlso rdf:resource="http://www.livejournal.com/users/blaisepascal/data/foaf" />
+        <foaf:weblog rdf:resource="http://www.livejournal.com/users/blaisepascal/"/>
+      </foaf:Person>
+    </foaf:knows>
+  </foaf:Person>
+</rdf:RDF>
