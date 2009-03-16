@@ -1,14 +1,14 @@
-#badges /* Logos such as ICRA. */	{ text-align: right; border-width: 0 }
+#badges /* Logos such as ICRA. */	{ text-align: right; border-width: 0px }
 #badges td { text-align: right }
 #breadcrumbs { font-size: 80%; padding-top: 43px; margin-left: 16.25em /* 13em x 125%, to make up for the 80% font. */;  }
 #content { margin-left: 13em; }
 #footer   { margin-left: 13em; border-top: 1px solid #000 }
-#links { position: absolute; left: 0; top: 43px; width: 12.5em; height: 100%; margin-top: 0; margin-left: 5px; margin-right: 5px;}
-#links ul {font-weight: bold; list-style-type: none; margin-top: 0; margin-left: 0; margin-bottom: 0; padding-left: 0; display: block }
+#links { position: absolute; left: 0px; top: 43px; width: 12.5em; height: 100%; margin-top: 0px; margin-left: 5px; margin-right: 5px;}
+#links ul {font-weight: bold; list-style-type: none; margin-top: 0px; margin-left: 0px; margin-bottom: 0px; padding-left: 0px; display: block }
 #links li {margin-bottom: 2px}
 #links li li {padding-left: .5em; font-size: 90%; font-weight: normal}
-#logo { background: url(images/marnen-bg.gif) repeat-x; background-color: #660066; position: absolute;  left: 0; width: 100%; height: 43px; z-index: 10 }
-#title { position: absolute; left: 0; width: 100%; height: 43px; z-index: 11 }
+#logo { background: url(images/marnen-bg.gif) repeat-x; background-color: #660066; position: absolute; left: 0px; width: 100%; height: 43px; z-index: 10 }
+#title { position: absolute; left: 0px; width: 100%; height: 43px; z-index: 11 }
 #title h1 { text-align: right; color: #fff; font-weight: bold; font-size: 24px; margin-top: 4px; margin-right: 5px;}
 
 a { color: #00f; text-decoration: none }
@@ -17,9 +17,9 @@ a:visited { color: #306;}
 a:active { color: #f00; }
 a.mailto { font-style: oblique; }
 
-a img { border-width: 0 }
+a img { border-width: 0px }
 
 p.address { margin-left: 2em }
 
 
-body { color: #000; background-color: #fff; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0; font-family: Georgia, "New Century Schoolbook", Times, "Times New Roman", serif; }
+body { color: #000; background-color: #fff; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0px; font-family: Georgia, "New Century Schoolbook", Times, "Times New Roman", serif; }
