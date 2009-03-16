@@ -1,9 +1,10 @@
 #badges /* Logos such as ICRA. */	{ text-align: right; border-width: 0px }
 #badges td { text-align: right }
-#breadcrumbs { font-size: 80%; padding-top: 43px; margin-left: 16.25em /* 13em x 125%, to make up for the 80% font. */;  }
-#content { margin-left: 13em; }
-#footer   { margin-left: 13em; border-top: 1px solid #000 }
-#links { position: absolute; left: 0px; top: 43px; width: 12.5em; height: 100%; margin-top: 0px; margin-left: 5px; margin-right: 5px;}
+#breadcrumbs { font-size: 80%; padding-top: 43px; margin-left: 5px;  }
+#content { margin-left: 5px; }
+#footer   { margin-left: 5px; border-top: 1px solid #000 }
+#links { position: relative; left: 0px; top: 43px; margin-top: 0px; margin-left: 5px}
+
 #links ul {font-weight: bold; list-style-type: none; margin-top: 0px; margin-left: 0px; margin-bottom: 0px; padding-left: 0px; display: block }
 #links li {margin-bottom: 2px}
 #links li li {padding-left: .5em; font-size: 90%; font-weight: normal}
