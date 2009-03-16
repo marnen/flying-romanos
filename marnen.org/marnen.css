@@ -15,7 +15,7 @@ a { color: #00f; text-decoration: none }
 a:hover { text-decoration: underline }
 a:visited { color: #909;}
 a:active { color: #f00; }
-a.mailto { font-style: oblique; }
+a.mailto { font-style: italic; }
 
 a img { border-width: 0px }
 
