@@ -69,7 +69,7 @@
 					</tr>
 				</table>
 				<!-- #BeginEditable "Copyright" -->
-					<csobj csref="../marnen.org.data/Components/pre_copyright.html" h="18" occur="11" t="Component" w="250">This page copyright © <!-- Preserve trailing space. --></csobj>1998-2005  <csobj csref="../marnen.org.data/Components/post_copyright.html" h="36" occur="22" t="Component" w="250">Marnen Laibow-Koser (<a class="mailto" href="mailto:marnen@marnen.org">marnen@marnen.org</a>)<br>
+					<csobj csref="../marnen.org.data/Components/pre_copyright.html" h="18" occur="11" t="Component" w="250">This page copyright © <!-- Preserve trailing space. --></csobj>1998-2009  <csobj csref="../marnen.org.data/Components/post_copyright.html" h="36" occur="22" t="Component" w="250">Marnen Laibow-Koser (<a class="mailto" href="mailto:marnen@marnen.org">marnen@marnen.org</a>)<br>
 					</csobj>
 
 				<!-- #EndEditable -->
@@ -81,7 +81,7 @@
 				<br>
 				Last modified 
 				<!-- #BeginEditable "Modification%20date%20object" -->
-					<csobj format="LongDate" h="18" region="15" t="DateTime" w="158">Tuesday, 4 October 2005</csobj>.
+					<csobj format="LongDate" h="18" region="15" t="DateTime" w="158">Monday, 16 March 2009</csobj>.
 
 				<!-- #EndEditable -->
 			</div>
