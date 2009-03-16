@@ -13,7 +13,7 @@
 
 a { color: #00f; text-decoration: none }
 a:hover { text-decoration: underline }
-a:visited { color: #306;}
+a:visited { color: #909;}
 a:active { color: #f00; }
 a.mailto { font-style: oblique; }
 
