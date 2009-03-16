@@ -1,2 +1,9 @@
+Options +IncludesNOEXEC +FollowSymLinks
 Redirect permanent /~bkoser/marnen/email http://users.bestweb.net/~bkoser/marnen/funstuff/email
 Redirect permanent /~bkoser/marnen/funstuff.html http://users.bestweb.net/~bkoser/marnen/funstuff/index.html
+
+RewriteEngine On 
+# Redirect missing .html files to .shtml
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteBase /
+RewriteRule ^(.*)\.html$ $1.shtml [R=301]
