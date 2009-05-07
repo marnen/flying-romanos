@@ -18,7 +18,30 @@
    sodipodi:docname="marnen-org.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
-     id="defs4" />
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3582">
+      <rect
+         style="fill:#660066;fill-opacity:1;display:inline"
+         id="rect3584"
+         width="295"
+         height="36"
+         x="0"
+         y="0.039844155" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3645">
+      <rect
+         y="36.071068"
+         x="-35"
+         height="121.92893"
+         width="382.36606"
+         id="rect3647"
+         style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-opacity:1;display:inline" />
+    </clipPath>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -33,7 +56,7 @@
      inkscape:cx="162.375"
      inkscape:cy="20"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer5"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="701"
@@ -82,27 +105,63 @@
   <g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="Text"
+     inkscape:label="Marnen.org"
      style="display:inline">
-    <text
-       xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-weight:normal;fill:#00cccc;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="8"
-       y="33.941776"
-       id="text3544"><tspan
-         sodipodi:role="line"
-         id="tspan3546"
-         x="73.0625"
-         y="0"><tspan
+    <g
+       inkscape:groupmode="layer"
+       id="layer5"
+       inkscape:label="Text"
+       style="display:inline">
+      <g
+         id="g3653">
+        <text
+           clip-path="url(#clipPath3582)"
+           id="text3544"
+           y="33.941776"
+           x="8"
+           style="display:inline;font-size:12px;font-style:normal;font-weight:normal;fill:#00cccc;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="0"
+             x="73.0625"
+             id="tspan3546"
+             sodipodi:role="line"><tspan
+               id="tspan3548"
+               style="font-size:48px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffff00;font-family:Vivaldi;-inkscape-font-specification:Vivaldi Bold Italic"
+               y="33.941776"
+               x="8">M</tspan><tspan
+               dy="0.5 0 0 0 0 4.5 -4.5"
+               dx="-3.5 -4.5 -6 -6 -5 -10 -9 -5 -7"
+               id="tspan3550"
+               style="font-size:40px;font-variant:normal;font-stretch:normal;fill:#00cccc;fill-opacity:1;stroke:none;stroke-opacity:1;font-family:ocra10;-inkscape-font-specification:ocra10"
+               y="33.941776"
+               x="73.0625">arnen.org</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="display:inline;font-size:12px;font-style:normal;font-weight:normal;fill:#00cccc;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
            x="8"
            y="33.941776"
-           style="font-size:48px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffff00;font-family:Vivaldi;-inkscape-font-specification:Vivaldi Bold Italic"
-           id="tspan3548">M</tspan><tspan
-           x="73.0625"
-           y="33.941776"
-           style="font-size:40px;font-variant:normal;font-stretch:normal;fill:#00cccc;fill-opacity:1;stroke:none;stroke-opacity:1;font-family:ocra10;-inkscape-font-specification:ocra10"
-           id="tspan3550"
-           dx="-3.5 -4.5 -6 -6 -5 -10 -9 -5 -7"
-           dy="0.5 0 0 0 0 4.5 -4.5">arnen.org</tspan></tspan></text>
+           id="text3618"
+           clip-path="url(#clipPath3645)"><tspan
+             sodipodi:role="line"
+             id="tspan3620"
+             x="73.0625"
+             y="0"><tspan
+               x="8"
+               y="33.941776"
+               style="font-size:48px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffff00;font-family:Vivaldi;-inkscape-font-specification:Vivaldi Bold Italic"
+               id="tspan3622">M</tspan><tspan
+               x="73.0625"
+               y="33.941776"
+               style="font-size:40px;font-variant:normal;font-stretch:normal;fill:#ff0000;fill-opacity:1;stroke:none;stroke-opacity:1;font-family:ocra10;-inkscape-font-specification:ocra10"
+               id="tspan3624"
+               dx="-3.5 -4.5 -6 -6 -5 -10 -9 -5 -7"
+               dy="0.5 0 0 0 0 4.5 -4.5">arnen.org</tspan></tspan></text>
+      </g>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer4"
+       inkscape:label="Clipping path"
+       style="display:inline" />
   </g>
 </svg>
