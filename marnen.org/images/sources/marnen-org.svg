@@ -30,10 +30,10 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
-     inkscape:cx="144.07864"
+     inkscape:cx="180.875"
      inkscape:cy="20"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="701"
@@ -78,4 +78,27 @@
        x="0"
        y="0.039844155" />
   </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Text"
+     style="display:inline">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3247"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#00cccc;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       transform="translate(-18,52)"><flowRegion
+         id="flowRegion3249"><rect
+           id="rect3251"
+           width="361.5"
+           height="63.5"
+           x="26"
+           y="-62.5"
+           style="font-size:12px;fill:#00cccc;fill-opacity:1" /></flowRegion><flowPara
+         id="flowPara3253"
+         style="font-size:40px"><flowSpan
+           style="font-size:48px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffff00;fill-opacity:1;font-family:Vivaldi;-inkscape-font-specification:Vivaldi Bold Italic"
+           id="flowSpan3255">M</flowSpan><flowSpan
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:ocra10;-inkscape-font-specification:ocra10"
+           id="flowSpan3267">arnen.org</flowSpan></flowPara></flowRoot>  </g>
 </svg>
