@@ -6,7 +6,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="295"
@@ -56,7 +55,7 @@
      inkscape:cx="162.375"
      inkscape:cy="20"
      inkscape:document-units="px"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="701"
@@ -73,21 +72,6 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
-     inkscape:label="Template"
-     inkscape:groupmode="layer"
-     id="layer1"
-     style="display:inline"
-     sodipodi:insensitive="true">
-    <image
-       id="image2449"
-       height="43"
-       width="295"
-       sodipodi:absref="/Users/marnen/Sites/marnen.org/marnen.org/images/marnen-org.gif"
-       xlink:href="/Users/marnen/Sites/marnen.org/marnen.org/images/marnen-org.gif"
-       x="0"
-       y="0" />
-  </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
@@ -119,9 +103,9 @@
            id="text3544"
            y="33.941776"
            x="8"
-           style="display:inline;font-size:12px;font-style:normal;font-weight:normal;fill:#00cccc;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#00cccc;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
            xml:space="preserve"><tspan
-             y="0"
+             y="inf"
              x="73.0625"
              id="tspan3546"
              sodipodi:role="line"><tspan
@@ -137,7 +121,7 @@
                x="73.0625">arnen.org</tspan></tspan></text>
         <text
            xml:space="preserve"
-           style="display:inline;font-size:12px;font-style:normal;font-weight:normal;fill:#00cccc;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#00cccc;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
            x="8"
            y="33.941776"
            id="text3618"
@@ -145,7 +129,7 @@
              sodipodi:role="line"
              id="tspan3620"
              x="73.0625"
-             y="0"><tspan
+             y="inf"><tspan
                x="8"
                y="33.941776"
                style="font-size:48px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffff00;font-family:Vivaldi;-inkscape-font-specification:Vivaldi Bold Italic"
