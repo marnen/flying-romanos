@@ -27,13 +27,13 @@
      gridtolerance="10000"
      guidetolerance="10"
      objecttolerance="10"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
-     inkscape:cx="135"
+     inkscape:cx="144.07864"
      inkscape:cy="20"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="701"
@@ -51,9 +51,11 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     inkscape:label="Template"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     style="display:inline"
+     sodipodi:insensitive="true">
     <image
        id="image2449"
        height="43"
@@ -62,5 +64,18 @@
        xlink:href="/Users/marnen/Sites/marnen.org/marnen.org/images/marnen-org.gif"
        x="0"
        y="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Background"
+     style="display:inline">
+    <rect
+       style="fill:#660066;fill-opacity:1"
+       id="rect3244"
+       width="295"
+       height="36"
+       x="0"
+       y="0.039844155" />
   </g>
 </svg>
