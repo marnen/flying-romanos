@@ -41,11 +41,21 @@
      inkscape:cy="100"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
-     showgrid="false"
+     showgrid="true"
      inkscape:window-width="1414"
      inkscape:window-height="778"
      inkscape:window-x="20"
-     inkscape:window-y="20" />
+     inkscape:window-y="20">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2399"
+       visible="true"
+       enabled="true"
+       spacingx="10px"
+       originy="190px"
+       spacingy="18px"
+       empspacing="4" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
