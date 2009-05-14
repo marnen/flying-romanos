@@ -8,8 +8,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="200"
-   height="200"
+   width="190"
+   height="190"
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.46"
@@ -60,7 +60,8 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(2.9999999e-7,-4.9e-6)">
     <path
        sodipodi:type="arc"
        style="fill:#660066;fill-opacity:1;stroke:none"
@@ -75,7 +76,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Text">
+     inkscape:label="Text"
+     transform="translate(2.9999999e-7,-4.9e-6)">
     <text
        xml:space="preserve"
        style="font-size:104px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Vivaldi;-inkscape-font-specification:Vivaldi Italic Condensed"
