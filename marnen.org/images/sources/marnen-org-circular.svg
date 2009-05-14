@@ -40,12 +40,12 @@
      inkscape:cx="-104.5"
      inkscape:cy="100"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:window-width="1414"
      inkscape:window-height="778"
-     inkscape:window-x="11"
-     inkscape:window-y="0" />
+     inkscape:window-x="20"
+     inkscape:window-y="20" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -58,7 +58,19 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Opaque background">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.50000000000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8040"
+       width="95"
+       height="190"
+       x="0"
+       y="0" />
+  </g>
+  <g
+     inkscape:label="Circle"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(2.9999999e-7,-4.9e-6)">
