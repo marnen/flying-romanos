@@ -35,7 +35,7 @@
      inkscape:cx="94"
      inkscape:cy="-27.786"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:window-width="1414"
      inkscape:window-height="778"
@@ -93,7 +93,7 @@
        x="19.999998"
        y="20" />
     <path
-       transform="matrix(0.3299033,0,0,0.3504057,-3.4752075,1.921632)"
+       transform="matrix(0.3299033,0,0,0.3504057,-3.4752075,0.921632)"
        d="M 247,131.5 A 94,88.5 0 1 1 59,131.5 A 94,88.5 0 1 1 247,131.5 z"
        sodipodi:ry="88.5"
        sodipodi:rx="94"
@@ -118,7 +118,7 @@
        sodipodi:rx="94"
        sodipodi:ry="88.5"
        d="M 247,131.5 A 94,88.5 0 1 1 59,131.5 A 94,88.5 0 1 1 247,131.5 z"
-       transform="matrix(0.287234,0,0,0.3050847,3.053192,7.881351)" />
+       transform="matrix(0.287234,0,0,0.3050847,3.053192,6.881351)" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -130,13 +130,13 @@
        xml:space="preserve"
        style="font-size:58.56164932px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:condensed;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Vivaldi;-inkscape-font-specification:Vivaldi Italic Condensed"
        x="18.242058"
-       y="60.053162"
+       y="59.053162"
        id="text4231"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4233"
          x="18.242058"
-         y="60.053162"
+         y="59.053162"
          style="font-size:34.23604202px">M</tspan></text>
     <text
        xml:space="preserve"
