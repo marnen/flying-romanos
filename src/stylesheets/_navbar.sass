@@ -1,0 +1,19 @@
+@import compass/utilities/lists/horizontal_list.sass
+
+#navbar
+  :min-height 54px
+  #logo
+    +column(4)
+  :background
+    :image url("/images/navbar-bg.png")
+    :repeat repeat-x
+  ul
+    +horizontal-list
+    li
+      :padding-top 18px
+      :border-right 1px solid white
+      :height 36px
+      :display inline-block
+      a
+        :background-color #000099
+        :color white
