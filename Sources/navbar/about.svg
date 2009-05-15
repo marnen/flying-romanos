@@ -8,14 +8,17 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="51"
+   width="88"
    height="36"
    id="svg3322"
    sodipodi:version="0.32"
    inkscape:version="0.46"
    version="1.0"
-   sodipodi:docname="home.svg"
-   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+   sodipodi:docname="about.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/Users/marnen/Sites/marnen.org/site/images/navbar/home.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs3324">
     <inkscape:perspective
@@ -36,8 +39,8 @@
      objecttolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="-73.27996"
+     inkscape:zoom="1"
+     inkscape:cx="-151.5"
      inkscape:cy="40"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
@@ -86,13 +89,14 @@
      inkscape:label="Text">
     <text
        xml:space="preserve"
-       style="font-size:17.99994469px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Avant Garde;-inkscape-font-specification:Avant Garde"
-       x="-1.8369085"
-       y="23.745129"
-       id="text3339"><tspan
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Avant Garde;-inkscape-font-specification:Avant Garde"
+       x="-0.84375"
+       y="23.727623"
+       id="text3339"
+       transform="scale(1.0000035,0.9999965)"><tspan
          sodipodi:role="line"
          id="tspan3341"
-         x="-1.8369085"
-         y="23.745129">HOME</tspan></text>
+         x="-0.84375"
+         y="23.727623">ABOUT ME</tspan></text>
   </g>
 </svg>
