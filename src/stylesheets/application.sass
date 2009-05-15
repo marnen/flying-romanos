@@ -1,7 +1,9 @@
 @import blueprint/modules/grid.sass
+@import blueprint/modules/typography.sass
 @import blueprint/modules/debug.sass
 !grid = "/images/grid.png"
 +blueprint-grid
++blueprint-typography
 +blueprint-debug(!grid)
 // Uncomment the next two lines to turn liquid layout on.
 // @import blueprint/modules/liquid.sass
@@ -19,6 +21,10 @@ body
     :family Georgia
     :size 10pt
   :margin-top 3px
+  
+// Override Blueprint defaults
+h1
+  :font-size 2em
   
 @import navbar.sass 
   
