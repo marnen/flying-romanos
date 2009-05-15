@@ -1,9 +1,14 @@
 @import compass/utilities/lists/horizontal_list.sass
 
+=border-right
+  :border-right 1px solid white
+  
 #navbar
   :min-height 54px
   #logo
     +column(4)
+  #logo-small
+    +column(6)
   :background
     :image url("/images/navbar/navbar-bg.png")
     :repeat repeat-x
@@ -12,11 +17,13 @@
     li
       :padding
         :top 18px
+      +border-right
       :border
-        :left 1px solid transparent /* needed to keep the grid for some reason... */
-        :right 1px solid white
+        /* :left 1px solid transparent /* needed to keep the grid for some reason... */
       :height 36px
       :text-align center
+      &.left-border /* TODO: make this less presentational */
+        :border-left 1px solid white
       a
         :background-color #000099
         :color white
