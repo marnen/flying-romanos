@@ -10,8 +10,11 @@
   ul
     +horizontal-list
     li
-      :padding-top 18px
-      :border-right 1px solid white
+      :padding
+        :top 18px
+      :border
+        :left 1px solid transparent /* needed to keep the grid for some reason... */
+        :right 1px solid white
       :height 36px
       :text-align center
       a
