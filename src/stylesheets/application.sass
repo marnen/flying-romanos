@@ -5,15 +5,20 @@
 // Uncomment the next two lines to turn liquid layout on.
 // @import blueprint/modules/liquid.sass
 // +blueprint-liquid-grid
-body
+
+=container-ie6
   +container
+  :text-align left
+
+body
+  +container-ie6
   :font
-    :family Verdana
+    :family Georgia
     :size 10pt
   :margin-top 3px
   
 @import navbar.sass 
   
 #grid
-  +container
+  +container-ie6
   +showgrid(!grid)
