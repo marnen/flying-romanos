@@ -6,12 +6,14 @@
 // @import blueprint/modules/liquid.sass
 // +blueprint-liquid-grid
 
-=container-ie6
+=container-plus
+  // An improved container mixin: text-align left for IE6 compatibility, and overflow auto so we can scroll horizontally (yuck!) on small screens.
   +container
   :text-align left
+  :overflow auto
 
 body
-  +container-ie6
+  +container-plus
   :font
     :family Georgia
     :size 10pt
@@ -20,5 +22,5 @@ body
 @import navbar.sass 
   
 #grid
-  +container-ie6
+  +container-plus
   +showgrid(!grid)
