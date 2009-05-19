@@ -1,10 +1,3 @@
 #navbar
   #logo-small= img 'marnen-org-circular-small.png', :height => 54, :width => 231, :alt => 'Marnen.org'
-  %ul
-    %li.span-2.left-border= link img('/images/navbar/home.png', :alt => 'Home', :height => 36, :width => 51), '/'
-    %li.span-3= link img('/images/navbar/about.png', :alt => 'About me', :height => 36, :width => 88), '/about.html'
-    %li.span-2= link img('/images/navbar/music.png', :alt => 'About me', :height => 36, :width => 53), '/music.html'
-    %li.span-3= link img('/images/navbar/webdesign.png', :alt => 'Web Design', :height => 36, :width => 105), '/webdesign.html'
-    %li.span-2= link img('/images/navbar/links.png', :alt => 'Links', :height => 36, :width => 43), '/webdesign.html'
-    %li.span-3= link img('/images/navbar/funstuff.png', :alt => 'Fun Stuff!', :height => 36, :width => 87), '/funstuff'
-    %li.span-3.last= link img('/images/navbar/contact.png', :alt => 'Contact me', :height => 36, :width => 86), '/contact.html'
+  = partial 'navbar-links'
