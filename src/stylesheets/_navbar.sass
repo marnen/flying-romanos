@@ -1,8 +1,17 @@
 @import compass/utilities/lists/horizontal_list.sass
-
+!navbar_blue = #000099
 =border-right
   :border-right 1px solid white
   
+=menu
+  & > ul
+    :background-color white
+    :position absolute
+    :border= 1px solid !navbar_blue
+    :display none
+  &:hover > ul
+    :display block
+
 !unit = 40px
 
 #navbar
@@ -29,5 +38,8 @@
       &#_nav-about, &#_nav-webdesign, &#_nav-funstuff, &#_nav-contact
         :width= !unit * 3
       a
-        :background-color #000099
+        :background-color= !navbar_blue
         :color white
+        
+#_nav-about
+  +menu

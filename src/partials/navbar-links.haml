@@ -1,6 +1,13 @@
 %ul
   %li#_nav-home= link img('/images/navbar/home.png', :alt => 'Home', :height => 36, :width => 51), '/'
-  %li#_nav-about= link img('/images/navbar/about.png', :alt => 'About me', :height => 36, :width => 88), '/about.html'
+  %li#_nav-about
+    = link img('/images/navbar/about.png', :alt => 'About me', :height => 36, :width => 88), '/about.html'
+    %ul>
+      %li
+        Résumés
+        %ul
+          %li== Music (#{link 'PDF', '/resume_m.pdf'})
+          %li== Programming (#{link 'PDF', '/resume.pdf'})
   %li#_nav-music= link img('/images/navbar/music.png', :alt => 'About me', :height => 36, :width => 53), '/music.html'
   %li#_nav-webdesign= link img('/images/navbar/webdesign.png', :alt => 'Web Design', :height => 36, :width => 105), '/webdesign.html'
   %li#_nav-links= link img('/images/navbar/links.png', :alt => 'Links', :height => 36, :width => 43), '/webdesign.html'
