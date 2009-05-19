@@ -1,34 +1,20 @@
-@import blueprint/modules/grid.sass
 @import blueprint/modules/typography.sass
-@import blueprint/modules/debug.sass
-!grid = "/images/grid.png"
-+blueprint-grid
 +blueprint-typography
-// Uncomment the next two lines to turn liquid layout on.
-// @import blueprint/modules/liquid.sass
-// +blueprint-liquid-grid
-
-=container-plus
-  // An improved container mixin: text-align left for IE6 compatibility, and overflow auto so we can scroll horizontally (yuck!) on small screens.
-  +container
-  :text-align left
-  :overflow auto
 
 body
-  +container-plus
   :font
     :family Georgia
     :size 10pt
-  :margin-top 3px
+  // :margin-top 3px
   
 // Override Blueprint defaults
 h1
   :font-size 2em
   
-@import navbar.sass
-
-@import footer.sass
+//
+  @import navbar.sass
   
-#grid
-  +container-plus
-  // +showgrid(!grid)
+  @import footer.sass
+    
+  #grid
+    // +showgrid(!grid)
