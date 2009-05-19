@@ -12,5 +12,16 @@
   %li#_nav-music= link img('/images/navbar/music.png', :alt => 'About me', :height => 36, :width => 53), '/music.html'
   %li#_nav-webdesign= link img('/images/navbar/webdesign.png', :alt => 'Web Design', :height => 36, :width => 105), '/webdesign.html'
   %li#_nav-links= link img('/images/navbar/links.png', :alt => 'Links', :height => 36, :width => 43), '/webdesign.html'
-  %li#_nav-funstuff= link img('/images/navbar/funstuff.png', :alt => 'Fun Stuff!', :height => 36, :width => 109), '/funstuff'
+  %li#_nav-funstuff
+    = link img('/images/navbar/funstuff.png', :alt => 'Fun Stuff!', :height => 36, :width => 109), '/funstuff'
+    %ul>
+      %li= link "SCA Humor", "funstuff/sca.html"
+      %li
+        = link "E-mailed Funnies", "funstuff/email/index.html"
+        %ul
+          %li= link "Bio-Optic Organized Knowledge Device", "funstuff/email/book.html"
+          %li= link "Celtic Tune V*irus Warning", "funstuff/email/celtic.html"
+          %li= link "Somebody thinks Clinton thinks he's God", "funstuff/email/clinton.html"
+          %li= link "Dilbert Management Training", "funstuff/email/dilbert.html"
+          %li= link "Error Message Haiku", "funstuff/email/errorhaiku.html"
   %li#_nav-contact= link img('/images/navbar/contact.png', :alt => 'Contact me', :height => 36, :width => 86), '/contact.html'
