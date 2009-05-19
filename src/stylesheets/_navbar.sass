@@ -5,12 +5,22 @@
   
 =menu
   & > ul
-    :background-color white
-    :position absolute
-    :border= 1px solid !navbar_blue
     :display none
   &:hover > ul
+    :background-color white
+    :position absolute
+    :border 1px solid #{!navbar_blue}
     :display block
+    :padding-left 0px
+    & > li
+      :font-weight bolder
+  ul
+    +no-bullet
+    :text-align left
+    :font-weight normal
+  li ul
+    :padding-left 1.5em
+
 
 !unit = 40px
 
@@ -26,9 +36,9 @@
     :width= !unit * 6
     :float left
     +border-right
-  ul
-    +horizontal-list
-    li
+  & > ul
+    +horizontal-list(4px, "no")
+    & > li
       :padding
         :top 18px
       +border-right
@@ -37,7 +47,7 @@
       :width= !unit * 2
       &#_nav-about, &#_nav-webdesign, &#_nav-funstuff, &#_nav-contact
         :width= !unit * 3
-      a
+      & > a
         :background-color= !navbar_blue
         :color white
         
