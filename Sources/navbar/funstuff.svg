@@ -8,7 +8,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="87"
+   width="109"
    height="36"
    id="svg3322"
    sodipodi:version="0.32"
@@ -97,6 +97,6 @@
          sodipodi:role="line"
          id="tspan3341"
          x="-1.2041016"
-         y="23.727623">FUN STUFF!</tspan></text>
+         y="23.727623">FUN STUFF! ▼</tspan></text>
   </g>
 </svg>
