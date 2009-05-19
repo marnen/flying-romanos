@@ -40,7 +40,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="-272.5"
+     inkscape:cx="-113.5"
      inkscape:cy="40"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
@@ -73,12 +73,11 @@
      inkscape:label="Background"
      inkscape:groupmode="layer"
      id="layer1"
-     sodipodi:insensitive="true"
      style="display:inline">
     <rect
        style="fill:#000099;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect3336"
-       width="100"
+       width="120"
        height="36"
        x="0"
        y="0" />
@@ -97,6 +96,6 @@
          sodipodi:role="line"
          id="tspan3341"
          x="-0.84375"
-         y="23.727623">ABOUT ME</tspan></text>
+         y="23.727623">ABOUT ME ▼</tspan></text>
   </g>
 </svg>
