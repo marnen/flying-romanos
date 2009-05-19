@@ -3,16 +3,18 @@
 =border-right
   :border-right 1px solid white
   
+!unit = 40px
+
 #navbar
   :min-height 54px
   :background
     :image url("/images/navbar/navbar-bg.png")
     :repeat repeat-x
   #logo
-    :width 160px
+    :width= !unit * 4
     :float left
   #logo-small
-    :width 240px
+    :width= !unit * 6
     :float left
     +border-right
   ul
@@ -23,6 +25,9 @@
       +border-right
       :height 36px
       :text-align center
+      :width= !unit * 2
+      &#_nav-about, &#_nav-webdesign, &#_nav-funstuff, &#_nav-contact
+        :width= !unit * 3
       a
         :background-color #000099
         :color white
