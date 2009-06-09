@@ -1,0 +1,21 @@
+@import compass/utilities/links.sass
+
+!background_color = white
+!text_color = black
+!link_color = blue
+!alink_color = red
+!vlink_color = #330066
+!nickname_color = #660066
+
+body
+  :background-color = !background_color
+  :color = !text_color
+  
+a
+  +link-colors(!link_color, "auto", !alink_color, !vlink_color)
+  
+.nickname
+  :font
+    :weight bolder
+    :size 112.5%
+  :color = !nickname_color
