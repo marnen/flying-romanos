@@ -10,3 +10,5 @@ end
 
 # sass_engine_options returns a hash, you can merge it with other options.
 configuration.sass_options = Compass.sass_engine_options
+
+configuration.haml_options[:format] = :html4
