@@ -18,11 +18,18 @@ a
 img
   :margin-right 3px
   
-.nickname
-  :font
-    :weight bolder
-    :size 112.5%
+= romano
   :color = !nickname_color
+  :font-weight bolder
+  
+.nickname
+  +romano
+  :font-size 112.5%
+.romano
+  +romano
+  
+a.mailto
+  :font-style italic
   
 #navbar
   +clearfix

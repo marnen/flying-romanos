@@ -2,6 +2,6 @@
 - @mtime = File.mtime(@current_page_path)
 #footer
   %p&== http://www.marnen.org#{current_page}
-  %p Site design by <a href="http://www.marnen.org">Marnen Laibow-Koser</a> (<a href="mailto:marnen@marnen.org"><i>marnen@marnen.org</i></a>); logo artwork by Judith DeBiase.
+  %p== Site design by #{link 'Marnen Laibow-Koser', 'http://www.marnen.org'} (#{link 'marnen@marnen.org', 'mailto:marnen@marnen.org', :class => 'mailto'}); logo artwork by Judith DeBiase.
   %p&== This page last modified #{@mtime.strftime '%A, %e %B %Y'}.
 = partial 'romanos/analytics'
