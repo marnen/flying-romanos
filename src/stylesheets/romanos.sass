@@ -1,3 +1,4 @@
+@import compass/utilities/general.sass
 @import compass/utilities/links.sass
 
 !background_color = white
@@ -13,12 +14,27 @@ body
   
 a
   +link-colors(!link_color, "auto", !alink_color, !vlink_color)
+
+img
+  :margin-right 3px
   
 .nickname
   :font
     :weight bolder
     :size 112.5%
   :color = !nickname_color
+  
+#navbar
+  +clearfix
+  #logo
+    :margin
+      :right 4px
+      :bottom 1.25em
+    :float left
+  #links
+    :float left
+    img
+      :display inline-block
   
 #footer
   :border-top 1px solid black

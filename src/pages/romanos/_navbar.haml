@@ -1,13 +1,8 @@
-%table{:border => 0, :cellspacing => 0, :cellpadding => 0}
-  %tr{:valign => :top}
-    %td
-      %h1
-        = img "romanos/logo.gif", :height => 91, :width => 315, :alt=>"The Flying Romanos"
-    %td{:width=>4}
-      <!-- Blank cell, here as a spacer. -->
-    %td
-      = link img('romanos/home.gif', :height => 31, :width => 63, :alt => 'Home'), './index.html'
-      %br
-      = link img('romanos/appear.gif', :height => 31, :width => 133, :alt => 'Appearances'), './appearances.html'
-      %br
-      = link img('romanos/recordings.gif', :height => 31, :width => 132, :alt => 'Recordings'), './recordings.html'
+#navbar
+  #logo= img "romanos/logo.gif", :height => 91, :width => 315, :alt=>"The Flying Romanos"
+  #links
+    = link img('romanos/home.gif', :height => 31, :width => 63, :alt => 'Home'), './index.html'
+    %br>
+    = link img('romanos/appear.gif', :height => 31, :width => 133, :alt => 'Appearances'), './appearances.html'
+    %br>
+    = link img('romanos/recordings.gif', :height => 31, :width => 132, :alt => 'Recordings'), './recordings.html'
