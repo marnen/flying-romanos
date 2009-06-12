@@ -92,10 +92,35 @@
        height="101"
        width="86"
        sodipodi:absref="/Users/marnen/Sites/marnen.org/site/images/romanos/ro.jpg"
-       xlink:href="/Users/marnen/Sites/marnen.org/site/images/romanos/ro.jpg" />
+       xlink:href="ro_plain.jpg" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Text" />
+     inkscape:label="Text">
+    <g
+       id="g3690"
+       transform="translate(-1,3)">
+      <rect
+         transform="matrix(0.7071068,-0.7071068,0.7071068,0.7071068,0,0)"
+         y="7.8452182"
+         x="-47.566223"
+         height="26"
+         width="106.31371"
+         id="rect3549"
+         style="fill:#660066;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         transform="matrix(0.7071068,-0.7071068,0.7071068,0.7071068,0,0)"
+         id="text3638"
+         y="28.769537"
+         x="-9.163271"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:Katfish LET;-inkscape-font-specification:Katfish LET"
+           id="tspan3640"
+           sodipodi:role="line"
+           x="-9.163271"
+           y="28.769537">Ro</tspan></text>
+    </g>
+  </g>
 </svg>
