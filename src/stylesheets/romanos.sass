@@ -8,6 +8,19 @@
 !vlink_color = #330066
 !nickname_color = #660066
 
+=replace-text(!url, !width = 0px, !height = 0px)
+  :background
+    :image = image_url(!url)
+    :repeat no-repeat
+  :text-indent -9999em
+  :vertical-align top
+  :overflow hidden
+  :height = !height
+  :width = !width
+  :min
+    :height = !height
+    :width = !width
+
 body
   :background-color = !background_color
   :color = !text_color
@@ -42,6 +55,9 @@ a.mailto
     :float left
     img
       :display inline-block
+    #home
+      +inline-block
+      +replace-text("/images/romanos/home.gif", 63px, 31px)
   
 #footer
   :border-top 1px solid black
