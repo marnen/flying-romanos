@@ -1,6 +1,8 @@
 @import compass/utilities/general.sass
 @import compass/utilities/links.sass
 
+// Set a few constants.
+
 !background_color = white
 !text_color = black
 !link_color = blue
@@ -8,6 +10,9 @@
 !vlink_color = #330066
 !nickname_color = #660066
 
+// Define some utility mixins.
+
+// replace-text may be replaceable by the one in Compass; this is written so as to have the same call syntax.
 =replace-text(!url, !width = 0px, !height = 0px)
   :background
     :image = image_url(!url)
@@ -21,10 +26,17 @@
     :height = !height
     :width = !width
     
+// Moves the background for CSS background image sprites.
 =sprite(!x = 0px, !y = 0px)
   &:hover
     :background-position = !x !y
 
+// Convenience function: setting up the common parameters for the navbar.
+=navbar-sprite(!url, !width = 133px, !height = 31px)
+  +replace-text(!url, !width, !height)
+  +sprite(0px, !height * -1)
+    
+// Basic declarations.
 body
   :background-color = !background_color
   :color = !text_color
@@ -35,7 +47,7 @@ a
 img
   :margin-right 3px
   
-= romano
+=romano
   :color = !nickname_color
   :font-weight bolder
   
@@ -57,20 +69,15 @@ a.mailto
   #links
     :margin auto 4px
     :float left
-    img
-      :display inline-block
     #home
       +inline-block
-      +replace-text("/images/romanos/home.png", 133px, 31px)
-      +sprite(0px, -31px)
+      +navbar-sprite("/images/romanos/home.png")
     #appearances
       +inline-block
-      +replace-text("/images/romanos/appearances.png", 133px, 31px)
-      +sprite(0px, -31px)
+      +navbar-sprite("/images/romanos/appearances.png")
     #recordings
       +inline-block
-      +replace-text("/images/romanos/recordings.png", 133px, 31px)
-      +sprite(0px, -31px)
+      +navbar-sprite("/images/romanos/recordings.png")
   
 #footer
   :border-top 1px solid black
