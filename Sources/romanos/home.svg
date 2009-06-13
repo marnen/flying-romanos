@@ -12,11 +12,14 @@
    sodipodi:version="0.32"
    inkscape:version="0.46"
    width="63"
-   height="31"
+   height="62"
    version="1.0"
    sodipodi:docname="home.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   style="display:inline">
+   style="display:inline"
+   inkscape:export-filename="/Users/marnen/Sites/marnen.org/site/images/romanos/home.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <metadata
      id="metadata2499">
     <rdf:RDF>
@@ -52,17 +55,28 @@
      id="base"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="-134"
+     inkscape:cx="-137"
      inkscape:cy="15.5"
      inkscape:window-x="166"
      inkscape:window-y="9"
-     inkscape:current-layer="layer2" />
+     inkscape:current-layer="layer3" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Background">
+    <rect
+       style="opacity:1;fill:#620062;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.92900002;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3355"
+       width="123"
+       height="31"
+       x="0"
+       y="31" />
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Text"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:28px;font-style:normal;font-weight:normal;fill:#660066;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -74,5 +88,16 @@
          x="3"
          y="23"
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#660066;fill-opacity:1;font-family:Katfish LET;-inkscape-font-specification:Katfish LET">Home</tspan></text>
+    <text
+       id="text3359"
+       y="54"
+       x="3"
+       style="font-size:28px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:Katfish LET;-inkscape-font-specification:Katfish LET"
+         y="54"
+         x="3"
+         id="tspan3361"
+         sodipodi:role="line">Home</tspan></text>
   </g>
 </svg>
