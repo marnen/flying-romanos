@@ -6,6 +6,7 @@
 
 !background_color = white
 !text_color = black
+!quiet_color = #999999
 !link_color = blue
 !alink_color = red
 !vlink_color = #330066
@@ -24,6 +25,12 @@
   :width = !width
   :height = !height
   +sprite(0px, !height * -1)
+  
+=quiet
+  :color = !quiet_color
+  !quiet_adjust = (!quiet_color - !text_color) * 0.75
+  a
+    +link-colors(!link_color + !quiet_adjust, "auto", !alink_color + !quiet_adjust, !vlink_color + !quiet_adjust)
     
 // Basic declarations.
 body
@@ -79,6 +86,7 @@ a.mailto
   
 #footer
   :border-top 1px solid black
+  +quiet
   p
     :margin 0 auto
     &:first-child
