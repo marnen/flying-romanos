@@ -12,6 +12,9 @@
 !vlink_color = #330066
 !nickname_color = #660066
 
+!text_font = Georgia, 'New Century Schoolbook', Times, 'Times New Roman', serif
+!text_size = 90%
+
 // Define some utility mixins.
     
 // Moves the background for CSS background image sprites.
@@ -36,6 +39,9 @@
 body
   :background-color = !background_color
   :color = !text_color
+  :font
+    :family = !text_font
+    :size = !text_size
   
 a
   +link-colors(!link_color, "auto", !alink_color, !vlink_color)
