@@ -1,5 +1,6 @@
 @import compass/utilities/general.sass
 @import compass/utilities/links.sass
+@import compass/utilities/text.sass
 
 // Set a few constants.
 
@@ -11,20 +12,6 @@
 !nickname_color = #660066
 
 // Define some utility mixins.
-
-// replace-text may be replaceable by the one in Compass; this is written so as to have the same call syntax.
-=replace-text(!url, !width = 0px, !height = 0px)
-  :background
-    :image = image_url(!url)
-    :repeat no-repeat
-  :text-indent -9999em
-  :vertical-align top
-  :overflow hidden
-  :height = !height
-  :width = !width
-  :min
-    :height = !height
-    :width = !width
     
 // Moves the background for CSS background image sprites.
 =sprite(!x = 0px, !y = 0px)
@@ -33,7 +20,9 @@
 
 // Convenience function: setting up the common parameters for the navbar.
 =navbar-sprite(!url, !width = 133px, !height = 31px)
-  +replace-text(!url, !width, !height)
+  +replace-text(!url, 0, 0)
+  :width = !width
+  :height = !height
   +sprite(0px, !height * -1)
     
 // Basic declarations.
