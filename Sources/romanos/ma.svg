@@ -10,7 +10,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="86"
-   height="101"
+   height="202"
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.46"
@@ -54,11 +54,11 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="-74.5"
+     inkscape:zoom="1"
+     inkscape:cx="-201"
      inkscape:cy="40"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer4"
      showgrid="false"
      inkscape:window-width="1236"
      inkscape:window-height="797"
@@ -90,6 +90,42 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Background">
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.92900002000000004;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2400"
+       width="86"
+       height="101"
+       x="0"
+       y="101" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="42"
+       y="124.75049"
+       id="text3180"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3182"
+         x="42"
+         y="124.75049"
+         style="font-size:27px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;font-family:Katfish LET;-inkscape-font-specification:Katfish LET"><tspan
+   style="font-size:27px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#990099;fill-opacity:1;font-family:Katfish LET;-inkscape-font-specification:Katfish LET"
+   id="tspan3192">Ma</tspan>rnen</tspan><tspan
+         sodipodi:role="line"
+         x="42"
+         y="158.50049"
+         style="font-size:27px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;font-family:Katfish LET;-inkscape-font-specification:Katfish LET"
+         id="tspan3269">Laibow-</tspan><tspan
+         sodipodi:role="line"
+         x="42"
+         y="192.25049"
+         style="font-size:27px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;font-family:Katfish LET;-inkscape-font-specification:Katfish LET"
+         id="tspan3273">Koser</tspan></text>
+  </g>
   <g
      inkscape:label="Robin"
      inkscape:groupmode="layer"
