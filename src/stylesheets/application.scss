@@ -1,5 +1,5 @@
-@import "base.sass";
-@import "blueprint/modules/typography.sass";
+@import "base";
+@import "blueprint/typography";
 
 @include blueprint-typography;
 
@@ -13,6 +13,6 @@ body {
 h1 {
   font-size: 2em; }
 
-@import "navbar.sass";
+@import "navbar";
 
-@import "footer.sass";
+@import "footer";
