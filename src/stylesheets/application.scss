@@ -1,0 +1,18 @@
+@import "base.sass";
+@import "blueprint/modules/typography.sass";
+
+@include blueprint-typography;
+
+body {
+  font: {
+    size: 10pt; };
+  // :margin-top 3px
+}
+
+// Override Blueprint defaults
+h1 {
+  font-size: 2em; }
+
+@import "navbar.sass";
+
+@import "footer.sass";
