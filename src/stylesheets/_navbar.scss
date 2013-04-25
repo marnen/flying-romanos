@@ -6,16 +6,21 @@ $navbar_blue: #000099;
   border-right: 1px solid white; }
 
 @mixin menu {
+  position: relative;
   & > ul {
     display: none; }
   &:hover > ul {
     background-color: white;
     position: absolute;
+    top: 100%;
+    left: 0px;
     border: 1px solid $navbar_blue;
     display: block;
     padding-left: 0px;
     & > li li {
-      font-size: 90%; } }
+      font-size: 90%;
+    }
+  }
   ul {
     @include no-bullet;
     text-align: left;
@@ -42,12 +47,15 @@ $unit: 40px;
   }
   & > ul {
     @include horizontal-list-container;
+    overflow: inherit;
     & > li {
       @include horizontal-list-item(0px);
       padding: {
         top: 18px;
       };
       @include border-right;
+      display: table;
+      table-layout: fixed;
       height: 36px;
       text-align: center;
       width: $unit * 2;
