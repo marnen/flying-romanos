@@ -1,7 +1,9 @@
 %ul
-  %li#nav-home= link img('/images/navbar/home.png', :alt => 'Home', :height => 36, :width => 51), '/'
+  %li#nav-home= link 'Home', '/'
   %li#nav-about
-    = link img('/images/navbar/about.png', :alt => 'About me', :height => 36, :width => 110), '/about.html'
+    %a{href: '/about.html'}
+      About me
+      %span.smaller ▼
     %ul>
       %li= link 'General information', '/about.html'
       %li
@@ -9,11 +11,13 @@
         %ul
           %li== Music (#{link 'PDF', '/resume_m.pdf', :class => :pdf})
           %li== Programming (#{link 'PDF', '/resume.pdf', :class => :pdf})
-  %li#nav-music= link img('/images/navbar/music.png', :alt => 'About me', :height => 36, :width => 53), '/music.html'
-  %li#nav-webdesign= link img('/images/navbar/webdesign.png', :alt => 'Web Design', :height => 36, :width => 105), '/webdesign.html'
-  %li#nav-links= link img('/images/navbar/links.png', :alt => 'Links', :height => 36, :width => 43), '/links.html'
+  %li#nav-music= link 'Music', '/music.html'
+  %li#nav-webdesign= link 'Web design', '/webdesign.html'
+  %li#nav-links= link 'Links', '/links.html'
   %li#nav-funstuff
-    = link img('/images/navbar/funstuff.png', :alt => 'Fun Stuff!', :height => 36, :width => 109), '/funstuff'
+    %a{href: '/funstuff'}
+      Fun stuff!
+      %span.smaller ▼
     %ul>
       %li= link "SCA Humor", "funstuff/sca.html"
       %li
@@ -24,4 +28,4 @@
           %li= link "Somebody thinks Clinton thinks he's God", "funstuff/email/clinton.html"
           %li= link "Dilbert Management Training", "funstuff/email/dilbert.html"
           %li= link "Error Message Haiku", "funstuff/email/errorhaiku.html"
-  %li#nav-contact= link img('/images/navbar/contact.png', :alt => 'Contact me', :height => 36, :width => 86), '/contact.html'
+  %li#nav-contact= link 'Contact', '/contact.html'
