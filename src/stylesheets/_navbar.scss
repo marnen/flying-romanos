@@ -29,29 +29,38 @@ $unit: 40px;
   min-height: 54px;
   background: {
     image: url("/images/navbar/navbar-bg.png");
-    repeat: repeat-x; };
+    repeat: repeat-x;
+  };
   #logo {
     width: $unit * 4;
-    float: left; }
+    float: left;
+  }
   #logo-small {
     width: $unit * 6;
     float: left;
-    @include border-right; }
+    @include border-right;
+  }
   & > ul {
     @include horizontal-list-container;
     & > li {
       @include horizontal-list-item(0px);
       padding: {
-        top: 18px; };
+        top: 18px;
+      };
       @include border-right;
       height: 36px;
       text-align: center;
       width: $unit * 2;
       &#nav-about, &#nav-webdesign, &#nav-funstuff, &#nav-contact {
-        width: $unit * 3; }
+        width: $unit * 3;
+      }
       & > a {
         background-color: $navbar_blue;
-        color: white; } } } }
+        color: white;
+      }
+    }
+  }
+}
 
 #nav-about, #nav-funstuff {
   @include menu; }
