@@ -6,7 +6,7 @@ $navbar_blue: #000099;
 @mixin border-right {
   border-right: 1px solid white; }
 
-@mixin menu {
+.menu {
   position: relative;
   & > ul {
     display: none; }
@@ -92,10 +92,6 @@ nav {
       }
     }
   }
-}
-
-#nav-about, #nav-funstuff {
-  @include menu;
 }
 
 .pdf {
