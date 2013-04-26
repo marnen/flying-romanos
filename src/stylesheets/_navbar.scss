@@ -1,4 +1,5 @@
 @import "compass/typography/lists/horizontal-list";
+@import "tex_gyre";
 
 $navbar_blue: #000099;
 
@@ -6,22 +7,34 @@ $navbar_blue: #000099;
   border-right: 1px solid white; }
 
 @mixin menu {
+  position: relative;
   & > ul {
     display: none; }
   &:hover > ul {
     background-color: white;
     position: absolute;
+    top: 100%;
+    left: 0px;
     border: 1px solid $navbar_blue;
     display: block;
     padding-left: 0px;
     & > li li {
-      font-size: 90%; } }
+      font-size: 90%;
+    }
+  }
   ul {
     @include no-bullet;
     text-align: left;
-    font-weight: normal; }
+    font-weight: normal;
+  }
   li ul {
-    padding-left: 1.5em; } }
+    padding-left: 1.5em;
+  }
+  & > a:after {
+    content: " ▼";
+    font-size: 85%;
+  }
+}
 
 $unit: 40px;
 
@@ -29,32 +42,57 @@ $unit: 40px;
   min-height: 54px;
   background: {
     image: url("/images/navbar/navbar-bg.png");
-    repeat: repeat-x; };
+    repeat: repeat-x;
+  };
   #logo {
     width: $unit * 4;
-    float: left; }
+    float: left;
+  }
   #logo-small {
     width: $unit * 6;
     float: left;
-    @include border-right; }
+    @include border-right;
+  }
   & > ul {
     @include horizontal-list-container;
+    overflow: inherit;
     & > li {
       @include horizontal-list-item(0px);
       padding: {
-        top: 18px; };
+        top: 18px;
+      };
       @include border-right;
+      display: table;
+      table-layout: fixed;
       height: 36px;
       text-align: center;
       width: $unit * 2;
       &#nav-about, &#nav-webdesign, &#nav-funstuff, &#nav-contact {
-        width: $unit * 3; }
+        width: $unit * 3;
+      }
       & > a {
+        &:link {
+          text-decoration: none;
+        }
+        &:hover {
+          text-decoration: underline;
+        }
         background-color: $navbar_blue;
-        color: white; } } } }
+        color: white;
+        font-family: $tex_gyre;
+        font-size: 18px;
+        display: table-cell;
+        width: 100%;
+        vertical-align: middle;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
 
 #nav-about, #nav-funstuff {
-  @include menu; }
+  @include menu;
+}
 
 .pdf {
   @include icon("/images/pdf-icon-16x16.png", 16px, 16px, 2px); }
