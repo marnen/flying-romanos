@@ -38,7 +38,7 @@ $navbar_blue: #000099;
 
 $unit: 40px;
 
-#navbar {
+nav {
   min-height: 54px;
   background: {
     image: url("/images/navbar/navbar-bg.png");
@@ -76,6 +76,10 @@ $unit: 40px;
         }
         &:hover {
           text-decoration: underline;
+          color: white;
+        }
+        &:visited {
+          color: white;
         }
         background-color: $navbar_blue;
         color: white;
