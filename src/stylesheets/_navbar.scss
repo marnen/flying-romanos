@@ -94,5 +94,6 @@ nav {
   }
 }
 
-.pdf {
-  @include icon("/images/pdf-icon-16x16.png", 16px, 16px, 2px); }
+[href$='.pdf'] {
+  @include icon("/images/pdf-icon-16x16.png", 16px, 16px, 2px);
+}
