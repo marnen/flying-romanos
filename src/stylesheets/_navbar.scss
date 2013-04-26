@@ -25,9 +25,16 @@ $navbar_blue: #000099;
   ul {
     @include no-bullet;
     text-align: left;
-    font-weight: normal; }
+    font-weight: normal;
+  }
   li ul {
-    padding-left: 1.5em; } }
+    padding-left: 1.5em;
+  }
+  & > a:after {
+    content: " ▼";
+    font-size: 85%;
+  }
+}
 
 $unit: 40px;
 
@@ -78,9 +85,6 @@ $unit: 40px;
         width: 100%;
         vertical-align: middle;
         text-transform: uppercase;
-        .smaller {
-          font-size: 85%;
-        }
       }
     }
   }

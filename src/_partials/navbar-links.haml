@@ -1,9 +1,7 @@
 %ul
   %li#nav-home= link 'Home', '/'
   %li#nav-about
-    %a{href: '/about.html'}
-      About me
-      %span.smaller ▼
+    = link 'About me', '/about.html'
     %ul>
       %li= link 'General information', '/about.html'
       %li
@@ -15,9 +13,7 @@
   %li#nav-webdesign= link 'Web design', '/webdesign.html'
   %li#nav-links= link 'Links', '/links.html'
   %li#nav-funstuff
-    %a{href: '/funstuff'}
-      Fun stuff!
-      %span.smaller ▼
+    = link 'Fun stuff!', '/funstuff'
     %ul>
       %li= link "SCA Humor", "funstuff/sca.html"
       %li
