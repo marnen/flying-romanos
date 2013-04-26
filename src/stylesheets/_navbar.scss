@@ -1,5 +1,5 @@
 @import "compass/typography/lists/horizontal-list";
-@import "tex_gyre";
+@import "avant_garde";
 
 $navbar_blue: #000099;
 
@@ -83,7 +83,7 @@ nav {
         }
         background-color: $navbar_blue;
         color: white;
-        font-family: $tex_gyre;
+        font-family: $avant_garde;
         font-size: 18px;
         display: table-cell;
         width: 100%;
