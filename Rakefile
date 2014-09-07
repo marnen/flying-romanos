@@ -4,10 +4,19 @@ task :build do
 end
 
 desc 'Build and deploy to Divshot'
-task :deploy => :build do
-  sh 'divshot', 'push', 'development'
-  status = `divshot status development`
-  releases = status.scan /^\s*release #\s+(\d+).*?^\s*build id\s+(\S+)/m
-  release_number, hash = releases.last
-  sh 'git', 'tag', "divshot-development-v#{release_number}-#{hash}"
+task deploy: :'deploy:all'
+
+namespace :deploy do
+  task all: [:build, :push, :tag]
+
+  task :push do
+    sh 'divshot', 'push', 'development'
+  end
+
+  task :tag do
+    status = `divshot status development`
+    releases = status.scan /^\s*release #\s+(\d+).*?^\s*build id\s+(\S+)/m
+    release_number, hash = releases.last
+    sh 'git', 'tag', "divshot-development-v#{release_number}-#{hash}"
+  end
 end
