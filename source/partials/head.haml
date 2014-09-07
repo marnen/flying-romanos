@@ -2,5 +2,5 @@
   %meta(charset='utf-8')
   %title= [@noprefix ? nil : partial('title').strip, @title].compact.join(' | ')
   %link{:rel => 'icon', :type => 'image/vnd.microsoft.icon', :href => '/images/favicon.ico'}
-  = stylesheets :application
+  = stylesheet_link_tag :application
   = @extra_headers

@@ -1,5 +1,16 @@
 ruby '2.0.0'
 source 'https://rubygems.org'
 
-gem 'staticmatic2', github: 'marnen/staticmatic', branch: 'tilt-1' # waiting for https://github.com/mindeavor/staticmatic2/pull/13
+gem "middleman", "~>3.3.5"
 gem 'rdiscount'
+
+# Live-reloading plugin
+gem "middleman-livereload", "~> 3.1.0"
+
+# For faster file watcher updates on Windows:
+gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
+
+# Windows does not come with time zone data
+gem "tzinfo-data", platforms: [:mswin, :mingw]
+
+gem 'compass-blueprint'
