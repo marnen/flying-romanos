@@ -2,7 +2,7 @@
 - current_page_path = current_page.gsub(%r{\A#{Regexp.escape @staticmatic.src_dir}}, '').gsub %r{\.haml\Z}, '.html'
 #footer
   .badges
-    = link img('/images/madeonamac20050720.gif', :alt => '[Made on a Mac]', :height => 36, :width => 98), 'http://store.apple.com'
+    = link_to img('/images/madeonamac20050720.gif', :alt => '[Made on a Mac]', :height => 36, :width => 98), 'http://store.apple.com'
   .text
     %p.copyright== This page copyright © 1998-#{@mtime.year} Marnen Laibow-Koser (<a class='mailto' href="mailto:marnen@marnen.org">marnen@marnen.org</a>)
     %p&== URL for this page is http://www.marnen.org#{current_page_path}
