@@ -1,0 +1,6 @@
+- breadcrumbs = [current_page]
+- while breadcrumbs.first.parent do
+  - breadcrumbs.unshift breadcrumbs.first.parent
+#breadcrumbs
+  You are here:
+  = breadcrumbs.collect {|page| link_to page.data.title, page.data.path}.join(h ' > ')
