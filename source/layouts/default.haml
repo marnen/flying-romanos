@@ -3,6 +3,5 @@
   = partial 'head'
   %body
     = partial 'navbar'
-    %h1&= current_page.data.headline || current_page.data.title
-    = yield
+    = partial 'content', locals: {content: yield}
     = partial 'footer'
