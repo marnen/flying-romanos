@@ -1,6 +1,7 @@
-- @title = 'Dilbert Management Training'
+---
+title: Dilbert Management Training
+---
 
-:markdown
 A magazine ran a Dilbert quotes contest. These are actual quotes from managers out there:
 
 * As of tomorrow, employees will only be able to access the building using individual security cards. Pictures will be taken next Wednesday and employees will receive their cards in two weeks.

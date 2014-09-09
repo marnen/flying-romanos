@@ -1,0 +1,30 @@
+---
+title: Bio-Optic Organized Knowledge Device
+---
+
+Headline: MAJOR TECHNOLOGICAL BREAKTHROUGH
+
+Introducing the new Bio-Optic Organized Knowledge device, trade named BOOK.
+
+BOOK is a revolutionary breakthrough in technology: no wires, no electric circuits, no batteries, nothing to be connected or switched on. It's so easy to use, even a child can operate it.
+
+Compact and portable, it can be used anywhere -- even sitting in an armchair by the fire -- yet it is powerful enough to hold as much information as a CD-ROM disc. Here's how it works:
+
+BOOK is constructed of sequentially numbered sheets of paper (recyclable), each capable of holding thousands of bits of information.
+
+The pages are locked together with a custom-fit device called a binder which keeps the sheets in their correct sequence. Opaque Paper Technology (OPT) allows manufacturers to use both sides of the sheet, doubling the information density and cutting costs. Experts are divided on the prospects for further increases in information density; for now, BOOKS with more information simply use more pages.
+
+Each sheet is scanned optically, registering information directly into your brain. A flick of the finger takes you to the next sheet.
+
+BOOK may be taken up at any time and used merely by opening it.
+
+BOOK never crashes or requires rebooting, though like other display devices it can become unusable if dropped overboard. The "browse" feature allows you to move instantly to any sheet, and move forward or backward as you wish. Many come with an "index" feature, which pin-points the exact location of any selected information for instant retrieval.
+
+An optional "BOOKmark" accessory allows you to open BOOK to the exact place you left it in a previous session -- even if the BOOK has been closed. BOOKmarks fit universal design standards; thus, a single BOOKmark can be used in BOOKs by various manufacturers. Conversely, numerous BOOK markers can be used in a single BOOK if the user wants to store numerous views at once. The number is limited only by the number of pages in the BOOK.
+
+You can also make personal notes next to BOOK text entries with an optional programming tool, the Portable Erasable Nib Cryptic Intercommunication Language Stylus (PENCILS).
+
+Portable, durable, and affordable, BOOK is being hailed as a precursor of a new entertainment wave. Also, BOOK's appeal seems so certain that thousands of content creators have committed to the platform and investors are reportedly flocking. Look for a flood of new titles soon.
+
+
+

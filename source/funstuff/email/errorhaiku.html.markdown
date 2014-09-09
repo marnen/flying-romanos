@@ -1,0 +1,127 @@
+---
+title: Error Message Haiku
+---
+
+Three things are certain:<br>
+Death, taxes, and lost data.<br>
+Guess which has occurred.<br>
+<hr>
+Everything is gone;<br>
+Your life's work has been destroyed.<br>
+Squeeze trigger (yes/no)?<br>
+<hr>
+Windows NT crashed.<br>
+I am the Blue Screen of Death.<br>
+No one hears your screams.<br>
+<hr>
+Seeing my great fault<br>
+Through darkening blue windows<br>
+I begin again<br>
+<hr>
+The code was willing,<br>
+It considered your request,<br>
+But the chips were weak.<br>
+<hr>
+Printer not ready.<br>
+Could be a fatal error.<br>
+Have a pen handy?<br>
+<hr>
+A file that big?<br>
+It might be very useful.<br>
+But now it is gone.<br>
+<hr>
+Errors have occurred.<br>
+We won't tell you where or why.<br>
+Lazy programmers.<br>
+<hr>
+Server's poor response<br>
+Not quick enough for browser.<br>
+Timed out, plum blossom.<br>
+<hr>
+Chaos reigns within.<br>
+Reflect, repent, and reboot.<br>
+Order shall return.<br>
+<hr>
+Login incorrect.<br>
+Only perfect spellers may<br>
+enter this system.<br>
+<hr>
+This site has been moved.<br>
+We'd tell you where, but then we'd<br>
+have to delete you.<br>
+<hr>
+Wind catches lily<br>
+scatt'ring petals to the wind:<br>
+segmentation fault<br>
+<hr>
+ABORTED effort:<br>
+Close all that you have.<br>
+You ask way too much.<br>
+<hr>
+First snow, then silence.<br>
+This thousand dollar screen dies<br>
+so beautifully.<br>
+<hr>
+With searching comes loss<br>
+and the presence of absence:<br>
+"My Novel" not found.<br>
+<hr>
+The Tao that is seen<br>
+Is not the true Tao, until<br>
+You bring fresh toner.<br>
+<hr>
+The Web site you seek<br>
+cannot be located but<br>
+endless others exist<br>
+<hr>
+Stay the patient course<br>
+Of little worth is your ire<br>
+The network is down<br>
+<hr>
+A crash reduces<br>
+your expensive computer<br>
+to a simple stone.<br>
+<hr>
+There is a chasm<br>
+of carbon and silicon<br>
+the software can't bridge<br>
+<hr>
+Yesterday it worked<br>
+Today it is not working<br>
+Windows is like that<br>
+<hr>
+To have no errors<br>
+Would be life without meaning<br>
+No struggle, no joy<br>
+<hr>
+You step in the stream,<br>
+but the water has moved on.<br>
+This page is not here.<br>
+<hr>
+No keyboard present<br>
+Hit F1 to continue<br>
+Zen engineering?<br>
+<hr>
+Hal, open the file<br>
+Hal, open the damn file, Hal<br>
+open the, please Hal<br>
+<hr>
+Out of memory.<br>
+We wish to hold the whole sky,<br>
+But we never will.<br>
+<hr>
+Having been erased,<br>
+The document you're seeking<br>
+Must now be retyped.<br>
+<hr>
+The ten thousand things<br>
+How long do any persist?<br>
+Netscape, too, has gone.<br>
+<hr>
+Rather than a beep<br>
+Or a rude error message,<br>
+These words: "File not found."<br>
+<hr>
+Serious error.<br>
+All shortcuts have disappeared.<br>
+Screen. Mind. Both are blank.
