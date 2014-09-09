@@ -3,5 +3,6 @@
   = partial 'head'
   %body
     = partial 'navbar'
+    %h1&= @headline || @title
     = yield
     = partial 'footer'
