@@ -13,4 +13,7 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 gem 'compass-blueprint'
+gem 'ffaker'
+gem 'guard-minitest'
+gem 'middleman-breadcrumbs', '~> 0.0.3'
 gem 'rake'

@@ -6,6 +6,11 @@ $navbar_blue: #000099;
 @mixin border-right {
   border-right: 1px solid white; }
 
+#breadcrumbs {
+  font-size: 90%;
+  clear: left;
+}
+
 .menu {
   position: relative;
   & > ul {

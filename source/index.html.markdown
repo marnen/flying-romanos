@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "marnen.org: Homepage of Marnen Laibow-Koser"
+title: marnen.org
 noprefix: true
 headline: Welcome to marnen.org!
 ---
