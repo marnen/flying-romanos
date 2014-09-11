@@ -1,6 +1,6 @@
 - source_file = current_page.source_file
 - @mtime = File.mtime source_file
-- current_page_path = source_file.gsub(%r{\A#{Regexp.escape source_dir}}, '').gsub %r{\.haml\Z}, '.html'
+- current_page_path = source_file.gsub(%r{\A#{Regexp.escape source_dir}}, '').gsub %r{\.(haml|markdown)\Z}, ''
 #footer
   .badges
     = link_to image_tag('/images/madeonamac20050720.gif', :alt => '[Made on a Mac]', :height => 36, :width => 98), 'http://store.apple.com'
