@@ -1,0 +1,16 @@
+---
+title: SCA Humor
+---
+
+This section contains humor relating to the [Society for Creative Anachronism](http://www.sca.org), and historical reenactment in general. Non-SCAdians will likely be completely mystified (you have been warned!). Non-humorous SCA links are [over here](../links.html#sca).
+
+* [Complete Information on Raising and Caring for your Peer](http://www.bham.net/sca/peer-manual.html). The essential manual for squires and other owners of these necessary but troublesome creatures.
+* [The Dictionary of SCA Slang](http://www-cs.canisius.edu/%7esalley/Articles/slang.html), by Ioseph of Locksley. All right, maybe this isn't precisely humor, but it's still pretty damn funny.
+* [The Knightly Knotebook](http://bard.ansteorra.org/bards/galen/sirknightly.htm), by [Viscount Galen of Bristol][galen]. Complete advice on how to be knightly.
+* [Re-Enactors' 12-Step Program](http://www.st-mike.org/twelve.html), by Magnus Maxwell. I guess you can have too much of *any* good thing...
+* [SCA Garb Violation Notice!](http://members.tripod.com/%7ewhitebard/garb_vio.htm) There are some things that just aren't pre-1600, thank God.
+* [Screwtape's SCA Letters](http://bard.ansteorra.org/bards/galen/screwtapes.htm), by [Viscount Galen of Bristol][galen]. C.S. Lewis meets the SCA. Absolutely hilarious, and dead on target. (The server is a little screwy, so it's a bit hard to connect sometimes, but keep trying--it's worth it!) Oh, and if this page puzzles you, it's probably because you haven't read C.S. Lewis's original [<cite>Screwtape Letters</cite>](http://www.amazon.com/exec/obidos/ASIN/0684831171/marnenlaibowkose) (also available in a [cheaper edition](http://www.amazon.com/exec/obidos/ASIN/1557488118/marnenlaibowkose), and on [audiocassette](http://www.amazon.com/exec/obidos/ASIN/094499315X/marnenlaibowkose), read by John Cleese).
+* [Top Ten and a Half Fun Things to Do at Pennsic War](http://blah.bsuvc.bsu.edu/azrael_top10_pennsic). 'Nuff said.
+* [You Know You're in the SCA When...](http://www.ecst.csuchico.edu/%7eamarth/sca/ykyitscaw.html) To my knowledge, the most comprehensive list of its kind.
+
+[galen]: http://bard.ansteorra.org/bards/galen/galen.html
