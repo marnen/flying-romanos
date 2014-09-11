@@ -5,6 +5,6 @@
   .badges
     = link_to image_tag('/images/madeonamac20050720.gif', :alt => '[Made on a Mac]', :height => 36, :width => 98), 'http://store.apple.com'
   .text
-    %p.copyright== This page copyright © 1998-#{@mtime.year} Marnen Laibow-Koser (<a class='mailto' href="mailto:marnen@marnen.org">marnen@marnen.org</a>)
+    %p.copyright== This page copyright © 1998-#{@mtime.year} Marnen Laibow-Koser (<a href="mailto:marnen@marnen.org">marnen@marnen.org</a>)
     %p&== URL for this page is http://www.marnen.org#{current_page_path}
     %p&== Last modified #{@mtime.strftime '%A, %d %B %Y'}.

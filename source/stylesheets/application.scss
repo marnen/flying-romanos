@@ -12,6 +12,8 @@ body {
 h1 {
   font-size: 2em; }
 
+a[href^="mailto:"] { font-style: italic; }
+
 @import "navbar";
 
 @import "footer";
