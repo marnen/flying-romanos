@@ -1,5 +1,6 @@
 ---
 title: Dilbert Management Training
+copyright: false
 ---
 
 A magazine ran a Dilbert quotes contest. These are actual quotes from managers out there:

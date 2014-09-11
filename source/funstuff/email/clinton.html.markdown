@@ -1,5 +1,6 @@
 ---
 title: Somebody thinks Clinton thinks he's God
+copyright: false
 ---
 
 Turmoil rocked Heaven this morning as allegations arose that God had had an affair with a former worshipper. The scandal was begun when a 21 year old woman, known only as Mary, claimed that she had given birth to God's "only son" last week in a barn in the hamlet of Bethlehem. Sources close to Mary claim that she "had loved God for a long time", that she was constantly talking about her relationship with God, and that she was "thrilled to have had his child."

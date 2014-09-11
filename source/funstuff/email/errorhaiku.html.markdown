@@ -1,5 +1,6 @@
 ---
 title: Error Message Haiku
+copyright: false
 ---
 
 Three things are certain:<br>

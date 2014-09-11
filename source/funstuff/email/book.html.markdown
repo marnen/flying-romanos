@@ -1,5 +1,6 @@
 ---
 title: Bio-Optic Organized Knowledge Device
+copyright: false
 ---
 
 Headline: MAJOR TECHNOLOGICAL BREAKTHROUGH

@@ -1,5 +1,6 @@
 ---
 title: Celtic Tune V*irus Warning
+copyright: false
 ---
 
 Subject: Celtic Tune V*irus Warning from Ir-Trad
