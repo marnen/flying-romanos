@@ -72,8 +72,11 @@ nav {
       height: 36px;
       text-align: center;
       width: $unit * 2;
-      &#nav-about, &#nav-webdesign, &#nav-funstuff, &#nav-contact {
+      &#nav-about, &#nav-funstuff, &#nav-contact {
         width: $unit * 3;
+      }
+      &#nav-web-dev {
+        width: $unit * 5;
       }
       & > a {
         &:link {
