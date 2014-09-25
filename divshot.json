@@ -3,4 +3,7 @@
   "root": "build",
   "clean_urls": false,
   "error_page": "error.html"
+  "redirects": {
+    "/tbird/*": "web_development.html"
+  }
 }
