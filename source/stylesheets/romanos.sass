@@ -1,67 +1,68 @@
-@import compass/utilities/general.sass
-@import compass/utilities/links.sass
-@import compass/utilities/text.sass
+@import compass/utilities/general
+@import compass/utilities/links
+@import compass/utilities/text
+@import compass/css3/inline-block
 
 // Set a few constants.
 
-!background_color = white
-!text_color = black
-!quiet_color = #999999
-!link_color = blue
-!alink_color = red
-!vlink_color = #330066
-!nickname_color = #660066
+$background_color: white
+$text_color: black
+$quiet_color: #999999
+$link_color: blue
+$alink_color: red
+$vlink_color: #330066
+$nickname_color: #660066
 
-!text_font = Georgia, 'New Century Schoolbook', Times, 'Times New Roman', serif
-!text_size = 90%
+$text_font: Georgia, 'New Century Schoolbook', Times, 'Times New Roman', serif
+$text_size: 90%
 
 // Define some utility mixins.
-    
+
 // Moves the background for CSS background image sprites.
-=sprite(!x = 0px, !y = 0px)
+=sprite($x: 0px, $y: 0px)
   &:hover
-    :background-position = !x !y
+    background-position: $x $y
 
 // Convenience function: setting up the common parameters for the navbar.
-=navbar-sprite(!url, !width = 133px, !height = 31px)
-  +replace-text(!url, 0, 0)
-  :width = !width
-  :height = !height
-  +sprite(0px, !height * -1)
-  
+=navbar-sprite($url, $width: 133px, $height: 31px)
+  +replace-text($url, 0, 0)
+  width: $width
+  height: $height
+  +sprite(0px, $height * -1)
+
 =quiet
-  :color = !quiet_color
-  !quiet_adjust = (!quiet_color - !text_color) * 0.75
+  color: $quiet_color
+  $quiet_adjust: ($quiet_color - $text_color) * 0.75
   a
-    +link-colors(!link_color + !quiet_adjust, "auto", !alink_color + !quiet_adjust, !vlink_color + !quiet_adjust)
-    
+    +link-colors($link_color + $quiet_adjust, "auto", $alink_color + $quiet_adjust, $vlink_color + $quiet_adjust)
+
 // Basic declarations.
 body
-  :background-color = !background_color
-  :color = !text_color
-  :font
-    :family = !text_font
-    :size = !text_size
-  
+  background-color: $background_color
+  color: $text_color
+  font
+    family: $text_font
+    size: $text_size
+
 a
-  +link-colors(!link_color, "auto", !alink_color, !vlink_color)
+  +link-colors($link_color, "auto", $alink_color, $vlink_color)
 
 img
   :margin-right 3px
-  
+
 =romano
-  :color = !nickname_color
+  color: $nickname_color
   :font-weight bolder
-  
+
 .nickname
   +romano
   :font-size 112.5%
 .romano
   +romano
-  
+
 a.mailto
   :font-style italic
-  
+
 #navbar
   +clearfix
   #logo
@@ -89,7 +90,7 @@ a.mailto
       +navbar-sprite("/images/romanos/ma.jpg", 86px, 101px)
     #no
       +navbar-sprite("/images/romanos/no.jpg", 86px, 101px)
-  
+
 #footer
   :border-top 1px solid black
   +quiet
