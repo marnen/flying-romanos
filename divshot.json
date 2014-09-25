@@ -1,0 +1,10 @@
+{
+  "name": "marnen",
+  "root": "build",
+  "clean_urls": false,
+  "error_page": "error.html",
+  "redirects": {
+    "/webdesign.html": "/web_development.html",
+    "/tbird/*": "/web_development.html"
+  }
+}

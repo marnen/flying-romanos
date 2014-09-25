@@ -1,0 +1,7 @@
+- title = nil unless defined?(title)
+%head
+  %meta(charset='utf-8')
+  %title&= title || [current_page.data.noprefix ? nil : partial('title').strip, current_page.data.title].compact.join(' | ')
+  %link{:rel => 'icon', :type => 'image/vnd.microsoft.icon', :href => '/images/favicon.ico'}
+  = stylesheet_link_tag :application
+  = @extra_headers

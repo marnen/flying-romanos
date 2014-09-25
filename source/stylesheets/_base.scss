@@ -1,0 +1,11 @@
+// Override Blueprint font family.
+$blueprint-font-family: Georgia, 'New Century Schoolbook', Times, 'Times New Roman', serif;
+$blueprint-font-size: 14px;
+@mixin icon($image_url, $image_width, $image_height, $extra_padding: 0px) {
+  display: inline-block;
+  background: {
+    image: url($image_url);
+    repeat: no-repeat; };
+  min-height: $image_height;
+  min-width: $image_width;
+  padding-left: $image_width + $extra_padding; }

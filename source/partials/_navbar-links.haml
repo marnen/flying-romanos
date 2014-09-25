@@ -1,0 +1,27 @@
+%ul
+  %li#nav-home= link_to 'Home', '/'
+  %li#nav-about.menu
+    = link_to 'About me', '/about.html'
+    %ul>
+      %li= link_to 'General information', '/about.html'
+      %li
+        Résumés
+        %ul
+          %li== Music (#{link_to 'PDF', '/resume_m.pdf'})
+          %li== Programming (#{link_to 'PDF', '/resume.pdf'})
+  %li#nav-music= link_to 'Music', '/music.html'
+  %li#nav-web-dev= link_to 'Web development', '/web_development.html'
+  %li#nav-links= link_to 'Links', '/links.html'
+  %li#nav-funstuff.menu
+    = link_to 'Fun stuff!', '/funstuff'
+    %ul>
+      %li= link_to "SCA Humor", "/funstuff/sca.html"
+      %li
+        = link_to "E-mailed Funnies", "/funstuff/email/index.html"
+        %ul
+          %li= link_to "Bio-Optic Organized Knowledge Device", "/funstuff/email/book.html"
+          %li= link_to "Celtic Tune V*irus Warning", "/funstuff/email/celtic.html"
+          %li= link_to "Somebody thinks Clinton thinks he's God", "/funstuff/email/clinton.html"
+          %li= link_to "Dilbert Management Training", "/funstuff/email/dilbert.html"
+          %li= link_to "Error Message Haiku", "/funstuff/email/errorhaiku.html"
+  %li#nav-contact= link_to 'Contact', '/contact.html'

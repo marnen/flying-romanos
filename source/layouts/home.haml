@@ -1,0 +1,10 @@
+!!! 5
+%html
+  - @extra_headers = capture_haml do
+    %meta{:name => "ICBM", :content => "42.663654,-73.778011"}
+    %meta{:name => "DC.title", :content => "marnen.org: Homepage of Marnen Laibow-Koser"}
+  = partial 'head', locals: {title: 'marnen.org: Homepage of Marnen Laibow-Koser'} # this is the <head> element
+  %body
+    = partial 'navbar-big'
+    = partial 'content', locals: {content: yield}
+    = partial 'footer'
