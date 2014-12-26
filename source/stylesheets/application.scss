@@ -17,3 +17,7 @@ a[href^="mailto:"] { font-style: italic; }
 @import "navbar";
 
 @import "footer";
+
+a[href^="http://web.archive.org/"] {
+  @include icon('/images/library-16x16.png', 16px, 16px, 2px)
+}
