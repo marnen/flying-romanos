@@ -7,6 +7,12 @@ What's a website without a collection of interesting links? Assembled here are s
 
 You might also want to see [my bookmarks](http://del.icio.us/marnen) at [delicious.com](http://delicious.com), a "social bookmark manager" which I highly recommend.
 
+Note that links displayed <span class='archive-link'>like this</span> are archived copies of old Web pages, presented courtesy of the [Internet Archive Wayback Machine][wayback machine]. If you know where to find current sources for any of them, please [contact me][contact]!
+
+[wayback machine]: http://web.archive.org
+[contact]: /contact.html
+
+
 <section markdown='1'>
 # Contents
 
