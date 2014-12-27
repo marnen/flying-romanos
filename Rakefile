@@ -1,3 +1,7 @@
+def rake_task(name, argument_hash)
+  Rake::Task[name].execute Rake::TaskArguments.new(argument_hash.keys, argument_hash.values)
+end
+
 def release_info(environment = :development)
   status = `divshot status #{environment}`
   releases = status.scan /^\s*release #\s+(\d+).*?^\s*build id\s+(\S+)/m
@@ -25,7 +29,7 @@ end
 
 namespace :deploy do
   task all: [:build, :push] do
-    Rake::Task[:tag].execute Rake::TaskArguments.new([:environment], ['development'])
+    rake_task :tag, environment: 'development'
   end
 
   task :push do
@@ -37,6 +41,6 @@ namespace :promote do
   desc 'Promote current development version to staging'
   task :staging do
     sh *%w(divshot promote development staging)
-    Rake::Task[:tag].execute Rake::TaskArguments.new([:environment, :ref], ['staging', git_tag(:development)])
+    rake_task :tag, environment: 'staging', ref: git_tag(:development)
   end
 end
