@@ -5,8 +5,9 @@ def release_info(environment = :development)
   return {environment: environment, number: release_number, hash: hash}
 end
 
-def tag(release_info)
-  "divshot-#{release_info[:environment]}-v#{release_info[:number]}-#{release_info[:hash]}"
+def git_tag(environment)
+  release = release_info environment
+  "divshot-#{release[:environment]}-v#{release[:number]}-#{release[:hash]}"
 end
 
 desc 'Build site into /build directory'
@@ -19,7 +20,7 @@ task deploy: :'deploy:all'
 
 task :tag, [:environment, :ref] do |_, args|
 
-  sh 'git', 'tag', tag(release_info args[:environment]), args[:ref]
+  sh 'git', 'tag', git_tag(args[:environment]), args[:ref]
 end
 
 namespace :deploy do
@@ -33,8 +34,7 @@ end
 namespace :promote do
   desc 'Promote current development version to staging'
   task :staging do
-    development_tag = tag(release_info :development)
     sh *%w(divshot promote development staging)
-    Rake::Task[:tag].execute Rake::TaskArguments.new([:environment, :ref], ['staging', development_tag])
+    Rake::Task[:tag].execute Rake::TaskArguments.new([:environment, :ref], ['staging', git_tag(:development)])
   end
 end
