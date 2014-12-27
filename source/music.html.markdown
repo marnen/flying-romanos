@@ -11,13 +11,22 @@ My musical activities fall broadly into three categories: [performance](#perform
 
 I play piano, organ, violin, viola, flute, and recorder. Most of my work is in classical or Anglo-American folk music.
 
-On the classical side of things, I have been the primary rehearsal pianist for the [Ridgewood Gilbert & Sullivan Opera Company](http://www.ridgewoodgands.com) since 2001. I also play in their orchestra, generally as concertmaster or principal violist. Until 2007, when I left the New York City area for the wilds of Albany, I was a choral accompanist at [Blind Brook](http://www.blindbrook.org) Middle and High School, and I played piano for ballet classes at [Sarah Lawrence College](http://www.slc.edu). (I miss doing that...if you're looking for a ballet accompanist, please get in touch!)
+On the classical side of things, I have been the primary rehearsal pianist for the [Ridgewood Gilbert & Sullivan Opera Company][ridgewood] since 2001. I also play in their orchestra, generally as concertmaster or principal violist. Until 2007, when I left the New York City area for the wilds of Albany, I was a choral accompanist at [Blind Brook][blind brook] Middle and High School, and I played piano for ballet classes at [Sarah Lawrence College][slc]. (I miss doing that...if you're looking for a ballet accompanist, please get in touch!)
 
-My folk-music activities are largely centered around the various dance bands that I'm a member of. At the moment, this list includes [The Flying Romanos](romanos/), which plays mostly English country dance music, as well as several contra dance bands including Contrazz, Contramantra, and Squeezology. I'm also a musician for the Handsfor Dance Project, which seeks to combine hip-hop and contra dance. If you want to see what I'm currently up to, check out [my listing](http://www.tedcrane.com/dancedb/displayident.com/marnen_laibow-koser) on Ted Crane's [DanceDB](http://www.tedcrane.com/dancedb).
+My folk-music activities are largely centered around the various dance bands that I'm a member of. At the moment, this list includes [The Flying Romanos](romanos/), which plays mostly English country dance music, as well as several contra dance bands including Contrazz, Contramantra, and Squeezology. I'm also a musician for the Handsfor Dance Project, which seeks to combine hip-hop and contra dance. If you want to see what I'm currently up to, check out [my listing][dancedb listing] on Ted Crane's [DanceDB][dancedb].
 
-I also do a fair amount of musical theater, and I play Javanese gamelan music with [Gamelan Son of Lion](http://www.gamelan.org/sonoflion) and [Gamelan Kusuma Laras](http://www.nygamelan.com). Also, from 2002 to 2003 I performed with the Renaissance-rock band [Blackmore's Night](http://www.blackmoresnight.com) in the U.S. and 17 European countries under the name Lord Marnen of Wolfhurst; I appear on their recordings <cite>[Ghost of a Rose](http://www.amazon.com/gp/product/B00009NJ93/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00009NJ93&linkCode=as2&tag=marnenlaibowkose&linkId=HANDSXZZMSRUL24I)<img src="http://ir-na.amazon-adsystem.com/e/ir?t=marnenlaibowkose&l=as2&o=1&a=B00009NJ93" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-</cite> and <cite>[Live: Past Times With Good Company](http://www.amazon.com/gp/product/B00006LJ9Y/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00006LJ9Y&linkCode=as2&tag=marnenlaibowkose&linkId=EIOFX3SWLKPCU4AE)<img src="http://ir-na.amazon-adsystem.com/e/ir?t=marnenlaibowkose&l=as2&o=1&a=B00006LJ9Y" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></cite>
-.
+I also do a fair amount of musical theater, and I play Javanese gamelan music with [Gamelan Son of Lion][son of lion] and [Gamelan Kusuma Laras][kusuma laras]. Also, from 2002 to 2003 I performed with the Renaissance-rock band [Blackmore's Night][blackmore's night] in the U.S. and 17 European countries under the name Lord Marnen of Wolfhurst; I appear on their recordings <cite>[Ghost of a Rose][amazon ghost of a rose]<img src="http://ir-na.amazon-adsystem.com/e/ir?t=marnenlaibowkose&l=as2&o=1&a=B00009NJ93" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></cite> and <cite>[Live: Past Times With Good Company][amazon past times]<img src="http://ir-na.amazon-adsystem.com/e/ir?t=marnenlaibowkose&l=as2&o=1&a=B00006LJ9Y" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></cite>.
+
+[amazon ghost of a rose]: http://www.amazon.com/gp/product/B00009NJ93/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00009NJ93&linkCode=as2&tag=marnenlaibowkose&linkId=HANDSXZZMSRUL24I
+[amazon past times]: http://www.amazon.com/gp/product/B00006LJ9Y/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00006LJ9Y&linkCode=as2&tag=marnenlaibowkose&linkId=EIOFX3SWLKPCU4AE
+[blackmore's night]: http://www.blackmoresnight.com
+[blind brook]: http://www.blindbrook.org
+[dancedb]: http://www.tedcrane.com/dancedb
+[dancedb listing]: http://www.tedcrane.com/dancedb/displayident.com/marnen_laibow-koser
+[kusuma laras]: http://www.nygamelan.com
+[ridgewood]: http://www.ridgewoodgands.com
+[slc]: http://www.slc.edu
+[son of lion]: http://www.gamelan.org/sonoflion
 </section>
 
 <section markdown='1'>
@@ -36,14 +45,19 @@ Some of my compositions are available for download as PDF files (I will add more
   * [viola part](greensleeves/viola.pdf)
 
 <cite>Isabella Regina, upon her Accession</cite> for SATB quartet or chorus
-: This is an anthem in the Anglo-Italian Renaissance madrigal tradition, written for Queen Isabella of the [East Kingdom](http://www.eastkingdom.org) of the [SCA](http://www.sca.org). The text is a sonnet by Ana Areces (known in the SCA as Ana Ravaya de Guzmán) which was read at Queen Isabella's coronation. This piece tied for first place in the musical composition category in the Northern Lights A&S Pentathlon in 2004.
+: This is an anthem in the Anglo-Italian Renaissance madrigal tradition, written for Queen Isabella of the [East Kingdom] of the [SCA][sca]. The text is a sonnet by Ana Areces (known in the SCA as Ana Ravaya de Guzmán) which was read at Queen Isabella's coronation. This piece tied for first place in the musical composition category in the Northern Lights A&S Pentathlon in 2004.
 
   * [full score](Anthem.pdf)
   * [MIDI file](Anthem.mid) (not great quality; the middle section is half the speed it should be)
+
+[east kingdom]: http://www.eastkingdom.org
+[sca]: http://www.sca.org
 </section>
 
 <section markdown='1'>
 # Engraving/Copying {#engraving}
 
-I have many years of experience as a music engraver and copyist, and I will happily take on just about any conceivable engraving assignment. All the PDF files in the previous section are my own engraving work; you might also want to look at my [transcriptions](http://www.pbm.com/%7elindahl/caroso/music) of Italian Renaissance lute tablature (there are some files on that page from another transcriber too, but everything is clearly credited). If you'd like to have me engrave your manuscript, or if you'd like to see more samples of my work, please [contact me](contact.html)!
+I have many years of experience as a music engraver and copyist, and I will happily take on just about any conceivable engraving assignment. All the PDF files in the previous section are my own engraving work; you might also want to look at my [transcriptions][caroso] of Italian Renaissance lute tablature (there are some files on that page from another transcriber too, but everything is clearly credited). If you'd like to have me engrave your manuscript, or if you'd like to see more samples of my work, please [contact me](contact.html)!
+
+[caroso]: http://www.pbm.com/%7elindahl/caroso/music
 </section>
