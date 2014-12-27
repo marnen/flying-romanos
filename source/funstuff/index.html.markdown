@@ -93,7 +93,7 @@ Click on any part of the code for an explanation.
 
 [instrument jokes]: http://www.mit.edu/people/jcb/jokes/
 [cyberspace]: http://www.amazon.com/exec/obidos/ASIN/0449912302/marnenlaibowkose
-[dfc]: http://www.spinnwebe.com/dfc/
+[dfc]: http://dfc.furr.org/
 [zark]: http://www.zark.com/
 [useless]: http://web.archive.org/web/20030802014543/http://www.go2net.com/useless/index.html
 </section>
