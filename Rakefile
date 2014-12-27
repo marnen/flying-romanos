@@ -43,4 +43,9 @@ namespace :promote do
     sh *%w(divshot promote development staging)
     rake_task :tag, environment: 'staging', ref: git_tag(:development)
   end
+
+  task :production do
+    sh *%w(divshot promote staging production)
+    rake_task :tag, environment: 'production', ref: git_tag(:staging)
+  end
 end
