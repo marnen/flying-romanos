@@ -89,11 +89,11 @@ Click on any part of the code for an explanation.
 * [Jeff Bigler](mailto:jcb@mit.edu)'s [collection of instrument jokes][instrument jokes]. Probably the largest such on the Net, and featured in [<cite>Dave Barry In Cyberspace</cite>][cyberspace].
 * The [Dysfunctional Family Circus][dfc]. Bil Keane's worst nightmare...well, you'll just have to see it for yourself! Not for the easily offended.
 * [Argon Zark][zark], a wonderful digital comic book by Charley Parker.
-* [The Useless Pages]. The name says it all, no?
+* [The Useless Pages][useless]. The name says it all, no?
 
 [instrument jokes]: http://www.mit.edu/people/jcb/jokes/
 [cyberspace]: http://www.amazon.com/exec/obidos/ASIN/0449912302/marnenlaibowkose
 [dfc]: http://www.spinnwebe.com/dfc/
 [zark]: http://www.zark.com/
-[useless]: http://www.go2net.com/internet/useless/
+[useless]: http://web.archive.org/web/20030802014543/http://www.go2net.com/useless/index.html
 </section>
