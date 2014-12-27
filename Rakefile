@@ -6,17 +6,27 @@ end
 desc 'Build and deploy to Divshot'
 task deploy: :'deploy:all'
 
+task :tag, [:environment] do |_, args|
+  puts "args: #{args.inspect}"
+  environment = args[:environment]
+  status = `divshot status #{environment}`
+  releases = status.scan /^\s*release #\s+(\d+).*?^\s*build id\s+(\S+)/m
+  release_number, hash = releases.last
+  sh 'git', 'tag', "divshot-#{environment}-v#{release_number}-#{hash}"
+end
+
 namespace :deploy do
-  task all: [:build, :push, :tag]
+  task all: [:build, :push, :'tag[development]']
 
   task :push do
-    sh 'divshot', 'push', 'development'
+    sh *%w(divshot push development)
   end
+end
 
-  task :tag do
-    status = `divshot status development`
-    releases = status.scan /^\s*release #\s+(\d+).*?^\s*build id\s+(\S+)/m
-    release_number, hash = releases.last
-    sh 'git', 'tag', "divshot-development-v#{release_number}-#{hash}"
+namespace :promote do
+  desc 'Promote current development version to staging'
+  task :staging do
+    sh *%w(divshot promote development staging)
+    Rake::Task[:tag].execute 'staging'
   end
 end
