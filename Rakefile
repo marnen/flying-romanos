@@ -14,6 +14,11 @@ def git_tag(environment)
   "divshot-#{release[:environment]}-v#{release[:number]}-#{release[:hash]}"
 end
 
+def promote(from: :development, to: :staging)
+  sh 'divshot', 'promote', from.to_s, to.to_s
+  rake_task :tag, environment: to, ref: git_tag(from)
+end
+
 desc 'Build site into /build directory'
 task :build do
   sh *%w(middleman build --clean)
@@ -40,12 +45,10 @@ end
 namespace :promote do
   desc 'Promote current development version to staging'
   task :staging do
-    sh *%w(divshot promote development staging)
-    rake_task :tag, environment: 'staging', ref: git_tag(:development)
+    promote from: :development, to: :staging
   end
 
   task :production do
-    sh *%w(divshot promote staging production)
-    rake_task :tag, environment: 'production', ref: git_tag(:staging)
+    promote from: :staging, to: :production
   end
 end
