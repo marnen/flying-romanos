@@ -19,11 +19,14 @@ desc 'Build and deploy to Divshot'
 task deploy: :'deploy:all'
 
 task :tag, [:environment, :ref] do |_, args|
+  args.with_defaults ref: 'head'
   sh 'git', 'tag', git_tag(args[:environment]), args[:ref]
 end
 
 namespace :deploy do
-  task all: [:build, :push, :'tag[development]']
+  task all: [:build, :push] do
+    Rake::Task[:tag].execute Rake::TaskArguments.new([:environment], ['development'])
+  end
 
   task :push do
     sh *%w(divshot push development)
