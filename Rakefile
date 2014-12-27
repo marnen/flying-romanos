@@ -12,14 +12,13 @@ end
 
 desc 'Build site into /build directory'
 task :build do
-  sh 'middleman', 'build', '--clean'
+  sh *%w(middleman build --clean)
 end
 
 desc 'Build and deploy to Divshot'
 task deploy: :'deploy:all'
 
 task :tag, [:environment, :ref] do |_, args|
-
   sh 'git', 'tag', git_tag(args[:environment]), args[:ref]
 end
 
