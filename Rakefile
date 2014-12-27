@@ -7,7 +7,6 @@ desc 'Build and deploy to Divshot'
 task deploy: :'deploy:all'
 
 task :tag, [:environment] do |_, args|
-  puts "args: #{args.inspect}"
   environment = args[:environment]
   status = `divshot status #{environment}`
   releases = status.scan /^\s*release #\s+(\d+).*?^\s*build id\s+(\S+)/m
