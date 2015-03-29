@@ -87,7 +87,7 @@ Humorous SCA links are [over here](/funstuff/sca.html).
 * [Stefan's Florilegium.][florilegium] An archive of postings from rec.org.sca, arranged by subject. Somewhat out of date (though it seems to get updated every now and then), but invaluable as a starting point for research.
 * [Camera Lucida.](http://www.squidoo.com/camera-lucida) A &quot;lens&quot; which I maintain on <a href="http://www.squidoo.com">Squidoo</a>, serving as a portal for general SCA resources.
 * [A Guiding Hand.][guiding hand] A fine beginner's guide to the SCA.
-* [Dagonell's Research Notebook.][dagonell] A collection of fascinating articles, including some observations occasioned by the process of making the Principality of Æthelmearc (western Pennsylvania and New York, as well as West Virginia) into an (independent kingdom)[aethelmearc].
+* [Dagonell's Research Notebook.][dagonell] A collection of fascinating articles, including some observations occasioned by the process of making the Principality of Æthelmearc (western Pennsylvania and New York, as well as West Virginia) into an [independent kingdom][aethelmearc].
 * [Harbingering for the Pennsic War][harbingering]. One person's philosophy for creating happy campers at <a href="http://www.pennsicwar.org">Pennsic</a> (the SCA's big summer event--2 weeks, nearly 10 000 people). I don't completely agree with the approach taken here, but it's certainly food for thought.
 * [How To Autocrat in Carolingia][autocrat]. A must-read for anyone thinking of running an SCA event. Geared to the [Barony of Carolingia][carolingia] (metropolitan Boston, MA), but contains a lot of generally useful information. Non-SCAdians will find this a good read too.
 * [Pennsic.](http://www.pennsicwar.org)
