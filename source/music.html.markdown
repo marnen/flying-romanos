@@ -14,7 +14,7 @@ My musical activities fall broadly into three categories: [performance](#perform
 
 I play piano, organ, violin, viola, flute, and recorder. Most of my work is in classical or Anglo-American folk music.
 
-On the classical side of things, I have been working with [Opera Brittenica][opera brittenica] as musical director and/or accompanist for each of their innovative productions of Benjamin Britten operas. From 2001 until about 2010, I was the primary rehearsal pianist for the [Ridgewood Gilbert & Sullivan Opera Company][ridgewood]; I also played in their orchestra, generally as concertmaster or principal violist. Until 2007, when I left the New York City area for the wilds of Albany, I was a choral accompanist at [Blind Brook][blind brook] Middle and High School, and I played piano for ballet classes at [Sarah Lawrence College][slc]. Here in Boston, I play for ballet classes at [Boston Conservatory][boston conservatory] and, as of Spring 2015, [Harvard University][harvard]. I've got lots of room in my schedule for more ballet work, so please get in touch if you need that!
+On the classical side of things, I have been working with [Opera Brittenica][opera brittenica] as musical director and/or accompanist for each of their innovative productions of Benjamin Britten operas. From 2001 until about 2010, I was the primary rehearsal pianist for the [Ridgewood Gilbert & Sullivan Opera Company][ridgewood]; I also played in their orchestra, generally as concertmaster or principal violist. Until 2007, when I left the New York City area for the wilds of Albany, I was a choral accompanist at [Blind Brook][blind brook] Middle and High School, and I played piano for ballet classes at [Sarah Lawrence College][slc]. Here in Boston, I play for ballet classes at [Boston Conservatory][boston conservatory], [Harvard University][harvard], and [José Mateo Ballet Theatre][jose mateo]. I've got lots of room in my schedule for more ballet work, so please get in touch if you need that!
 
 My folk-music activities are largely centered around the various dance bands that I'm a member of. At the moment, this list includes [The Flying Romanos](romanos/), which plays mostly English country dance music, as well as several contra dance bands including Contrazz, Contramantra, and Squeezology. I'm also a musician for the Handsfor Dance Project, which seeks to combine hip-hop and contra dance. If you want to see what I'm currently up to, check out [my listing][dancedb listing] on Ted Crane's [DanceDB][dancedb].
 
@@ -29,6 +29,7 @@ I also do a fair amount of musical theater, and I have played Javanese gamelan m
 [dancedb listing]: http://www.tedcrane.com/dancedb/displayident.com/marnen_laibow-koser
 [galak tika]: http://www.galaktika.org
 [harvard]: http://www.harvard.edu
+[jose mateo]: http://www.ballettheatre.org/
 [kusuma laras]: http://www.nygamelan.com
 [opera brittenica]: http://www.operabrittenica.com
 [ridgewood]: http://www.ridgewoodgands.com
