@@ -2,9 +2,13 @@
 title: Web Development
 ---
 
-I've been developing Web applications since 1999, using a variety of technologies. Currently, I'm a senior-level [Ruby on Rails](http://rubyonrails.org) developer, and I'm also experienced with client-side JavaScript and [CoffeeScript](http://coffeescript.org). I do a lot of open-source development (see my [GitHub profile](https://www.github.com/marnen) for more information); in particular, I've created the [Quorum](https://www.github.com/marnen/quorum2) calendar system.
+I've been developing Web applications since 1999, using a variety of technologies. Currently, I'm a senior-level [Ruby on Rails](http://rubyonrails.org) developer, and I'm also experienced with client-side JavaScript and [CoffeeScript](http://coffeescript.org). In addition, I'm starting to work with [Angular][angular] [NW.js][nwjs] and [Node.js][node]. I do a lot of open-source development (see my [GitHub profile](https://www.github.com/marnen) for more information); in particular, I've created the [Quorum](https://www.github.com/marnen/quorum2) calendar system.
 
 Other programming interests of mine include algorithmic music research, as well as [Haskell](http://www.haskell.org).
+
+[angular]: https://angularjs.org/
+[node]: https://nodejs.org/
+[nwjs]: http://nwjs.io/
 
 <section markdown="1">
 # Freelance work
