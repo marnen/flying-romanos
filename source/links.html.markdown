@@ -5,12 +5,14 @@ title: Links
 What's a website without a collection of interesting links? Assembled here are sites that would not otherwise have been listed here, but that are worthy of further clicking and somehow related to my own pursuits. This page is always under construction, and some of the categories here may yet turn into pages of their own...watch this space!
 {: #top}
 
-You might also want to see [my bookmarks](http://del.icio.us/marnen) at [delicious.com](http://delicious.com), a "social bookmark manager" which I highly recommend.
+You might also want to see [my bookmarks] at [delicious.com], a "social bookmark manager" which I highly recommend.
 
 Note that links displayed <span class='archive-link'>like this</span> are archived copies of old Web pages, presented courtesy of the [Internet Archive Wayback Machine][wayback machine]. If you know where to find current sources for any of them, please [contact me][contact]!
 
-[wayback machine]: http://web.archive.org
 [contact]: /contact.html
+[delicious.com]: http://delicious.com
+[my bookmarks]: http://del.icio.us/marnen
+[wayback machine]: http://web.archive.org
 
 
 <section markdown='1'>
@@ -47,10 +49,11 @@ Note that links displayed <span class='archive-link'>like this</span> are archiv
 # Folk music and dance {#folk}
 
 * [ABC home page.][abc] ABC is a format increasingly used by folk musicians for exchanging tunes over the Internet. Though simple enough to be easily human-readable and -writable, it is rigorous enough that it can be run through a conversion program to generate standard music notation or MIDI files. Extremely clever, eh what?
-* [Country Dance & Song Society.](http://www.cdss.org/) The preeminent organization supporting Anglo-American folk music and dance.
+* [Country Dance & Song Society.][cdss] The preeminent organization supporting Anglo-American folk music and dance.
 * [Round Hill Country Dances.][roundhill] Contra dances in Stamford, Connecticut, second Saturday of every month. One of the nicest contra groups around, in my (biased) opinion.
 
 [abc]: http://abcnotation.com/
+[cdss]: http://www.cdss.org/
 [roundhill]: http://www.roundhill.net
 
 [Back to top](#top)
