@@ -1,9 +1,7 @@
 - source_file = current_page.source_file
 - @mtime = File.mtime source_file
-- current_page_path = source_file.gsub(%r{\A#{Regexp.escape source_dir}}, '').gsub %r{\.(haml|markdown)\Z}, ''
-- current_page_path << '.html' unless current_page_path.end_with? '.html'
 #footer
-  %p&== http://www.marnen.org#{current_page_path}
+  %p&== http://www.marnen.org/#{current_path}
   %p== Site design by #{link_to 'Marnen Laibow-Koser', 'http://www.marnen.org'} (#{link_to 'marnen@marnen.org', 'mailto:marnen@marnen.org', :class => 'mailto'}); logo artwork by Judith DeBiase.
   %p&== This page last modified #{@mtime.strftime '%A, %e %B %Y'}.
 = partial 'romanos/analytics'
