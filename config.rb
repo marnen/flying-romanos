@@ -39,7 +39,7 @@ end
 activate :breadcrumbs
 
 set :css_dir, 'stylesheets'
-
+set :sass_assets_paths, ['bower_components/foundation-sites/scss']
 
 # Build-specific configuration
 configure :build do
