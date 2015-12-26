@@ -12,10 +12,8 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 # Middleman Gems
 gem 'middleman', '>= 4.0.0'
 gem 'middleman-livereload'
-gem 'middleman-compass', '>= 4.0.0'
 
 # Additional gems
-gem 'compass-blueprint'
 gem 'ffaker'
 gem 'guard-minitest'
 gem 'middleman-breadcrumbs', '~> 0.0.3'
