@@ -1,0 +1,73 @@
+@import 'avant_garde';
+@import 'icon';
+
+$navbar_blue: #000099;
+
+@include foundation-menu;
+@include foundation-top-bar;
+nav {
+  @include top-bar-container;
+  background: {
+    image: url("/images/navbar/navbar-bg.png");
+    repeat: repeat-x;
+  };
+  padding: 0px;
+  margin: $topbar-padding;
+
+  & > ul {
+    @extend .menu;
+    background-color: transparent;
+
+    & > li {
+      vertical-align: bottom;
+      & > a {
+        font: {
+          family: $avant_garde;
+          size: rem-calc(18);
+          weight: bolder;
+        }
+        // background-color: $navbar_blue;
+        color: $white;
+        text-transform: uppercase;
+        vertical-align: bottom;
+      }
+    }
+  }
+
+  #logo-small a {
+    padding: 0px;
+  }
+
+  .dropdown {
+    // position: relative;
+    & > ul {
+      display: none;
+    }
+    &:hover > ul {
+      // background-color: white;
+      position: absolute;
+      // top: 100%;
+      // left: 0px;
+      // border: 1px solid $navbar_blue;
+      display: block;
+      // padding-left: 0px;
+      // & > li li {
+      //   font-size: 90%;
+      // }
+    }
+    & > a:after {
+      content: " ▼";
+      font-size: 80%;
+    }
+    ul {
+      @include menu-direction(vertical);
+      ul {
+        @extend .nested;
+      }
+    }
+  }
+
+  [href$='.pdf'] {
+    @include icon("/images/pdf-icon-16x16.png", 16px, 16px, 2px);
+  }
+}
