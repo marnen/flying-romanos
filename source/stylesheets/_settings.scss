@@ -1,3 +1,26 @@
 @import 'settings/settings';
+@import 'bree-serif';
+@import 'lato';
+
+$body-font-family: $lato;
+$header-font-family: $bree-serif;
+$header-sizes: (
+  small: (
+    'h1': 24,
+    'h2': 20,
+    'h3': 19,
+    'h4': 18,
+    'h5': 17,
+    'h6': 16,
+  ),
+  medium: (
+    'h1': 30,
+    'h2': 25,
+    'h3': 24,
+    'h4': 20,
+    'h5': 18,
+    'h6': 16,
+  ),
+);
 
 $topbar-background: $body-background;
