@@ -1,5 +1,17 @@
 @import 'base';
 @import 'archive';
+@import 'footer';
+@import 'icon';
 @import 'navbar';
 
-a[href^="mailto:"] { font-style: italic; }
+a {
+  &[href^="mailto:"] { font-style: italic; }
+
+  &[href$='.pdf'] {
+    @include icon("/images/pdf-icon-16x16.png", 16px, 16px, 2px);
+  }
+}
+
+body {
+  margin: $topbar-padding;
+}

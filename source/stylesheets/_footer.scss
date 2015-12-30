@@ -1,0 +1,19 @@
+@include foundation-float-classes;
+
+@mixin quiet {
+  $quiet-color: lighten($body-font-color, 36);
+  color: $quiet-color;
+}
+
+#footer {
+  @include quiet;
+  border-top: 1px solid black;
+  font-size: 90%;
+
+  p { margin: 0px; }
+
+  .badges {
+    @extend .float-right;
+    margin-top: rem-calc(6);
+  }
+}

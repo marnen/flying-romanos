@@ -1,18 +1,17 @@
 @import 'fonts/avant-garde';
-@import 'icon';
 
-$navbar_blue: #000099;
 
 @include foundation-menu;
 @include foundation-top-bar;
 nav {
+  $navbar-blue: #000099;
+
   @include top-bar-container;
   background: {
     image: url("/images/navbar/navbar-bg.png");
     repeat: repeat-x;
   };
   padding: 0px;
-  margin: $topbar-padding;
 
   & > ul {
     @extend .menu;
@@ -26,7 +25,7 @@ nav {
           size: rem-calc(18);
           weight: bolder;
         }
-        // background-color: $navbar_blue;
+        // background-color: $navbar-blue;
         color: $white;
         text-transform: uppercase;
         vertical-align: bottom;
@@ -48,7 +47,7 @@ nav {
       position: absolute;
       // top: 100%;
       // left: 0px;
-      // border: 1px solid $navbar_blue;
+      border: 1px solid $navbar-blue;
       display: block;
       // padding-left: 0px;
       // & > li li {
@@ -66,8 +65,8 @@ nav {
       }
     }
   }
+}
 
-  [href$='.pdf'] {
-    @include icon("/images/pdf-icon-16x16.png", 16px, 16px, 2px);
-  }
+#breadcrumbs { // TODO: use Foundation breadcrumbs instead
+  font-size: 90%;
 }
