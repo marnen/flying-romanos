@@ -1,4 +1,4 @@
-@import 'avant_garde';
+@import 'fonts/avant-garde';
 @import 'icon';
 
 $navbar_blue: #000099;
@@ -22,7 +22,7 @@ nav {
       vertical-align: bottom;
       & > a {
         font: {
-          family: $avant_garde;
+          family: $avant-garde;
           size: rem-calc(18);
           weight: bolder;
         }
