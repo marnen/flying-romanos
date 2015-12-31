@@ -1,0 +1,21 @@
+{
+  "firebase": "marnen",
+  "public": "build",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ],
+  "redirects": [
+    {
+      "source": "/webdesign.html",
+      "destination": "/web_development.html",
+      "type": 301
+    },
+    {
+      "source": "/tbird/*",
+      "destination": "/web_development.html",
+      "type": 301
+    }
+  ]
+}
