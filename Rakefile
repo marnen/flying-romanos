@@ -1,21 +1,16 @@
+require 'json'
+
 def rake_task(name, argument_hash)
   Rake::Task[name].execute Rake::TaskArguments.new(argument_hash.keys, argument_hash.values)
 end
 
-def release_info(environment = :development)
-  status = `divshot status #{environment}`
-  releases = status.scan /^\s*release #\s+(\d+).*?^\s*build id\s+(\S+)/m
-  release_number, hash = releases.last
-  return {environment: environment, number: release_number, hash: hash}
-end
-
-def git_tag(environment)
-  release = release_info environment
-  "divshot-#{release[:environment]}-v#{release[:number]}-#{release[:hash]}"
+def git_tag
+  hosting_key = @deploy_status['result']['hosting']
+  "firebase-#{hosting_key}"
 end
 
 def promote(from: :development, to: :staging)
-  sh 'divshot', 'promote', from.to_s, to.to_s
+  sh 'firebase', 'promote', from.to_s, to.to_s
   rake_task :tag, environment: to, ref: git_tag(from)
 end
 
@@ -24,12 +19,12 @@ task :build do
   sh *%w(middleman build --clean)
 end
 
-desc 'Build and deploy to Divshot'
+desc 'Build and deploy to Firebase'
 task deploy: :'deploy:all'
 
 task :tag, [:environment, :ref] do |_, args|
   args.with_defaults ref: 'head'
-  sh 'git', 'tag', git_tag(args[:environment]), args[:ref]
+  sh 'git', 'tag', git_tag, args[:ref]
 end
 
 namespace :deploy do
@@ -38,7 +33,10 @@ namespace :deploy do
   end
 
   task :push do
-    sh *%w(divshot push development)
+    git_commit = `git rev-parse HEAD`.strip
+    deploy_output = `firebase deploy:hosting -j -m 'Git commit #{git_commit}'`
+    deploy_output.sub! %r(\A[^{]*), ''
+    @deploy_status = JSON.parse deploy_output
   end
 end
 
@@ -48,6 +46,7 @@ namespace :promote do
     promote from: :development, to: :staging
   end
 
+  desc 'Promote current staging version to production'
   task :production do
     promote from: :staging, to: :production
   end
