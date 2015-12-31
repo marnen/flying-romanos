@@ -17,24 +17,29 @@ nav {
     @extend .menu;
     background-color: transparent;
 
-    & > li {
-      vertical-align: bottom;
-      & > a {
-        font: {
-          family: $avant-garde;
-          size: rem-calc(18);
-          weight: bolder;
-        }
-        // background-color: $navbar-blue;
-        color: $white;
-        text-transform: uppercase;
-        vertical-align: bottom;
+    & > li > a {
+      margin-top: rem-calc(16);
+      font: {
+        family: $avant-garde;
+        size: rem-calc(18);
+        weight: bolder;
       }
+      // background-color: $navbar-blue;
+      color: $white;
+      text-transform: uppercase;
+      vertical-align: bottom;
+      border-right: 1px solid $body-background;
     }
   }
 
-  #logo-small a {
-    padding: 0px;
+  #logo-small {
+    padding-top: 0px;
+    vertical-align: inherit;
+
+    a {
+      margin-top: 0px;
+      padding: 0px;
+    }
   }
 
   .dropdown {
