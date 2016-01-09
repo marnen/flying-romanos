@@ -1,77 +1,54 @@
 @import 'fonts/avant-garde';
 
-
 @include foundation-menu;
 @include foundation-top-bar;
-nav {
-  $navbar-blue: #000099;
 
-  @include top-bar-container;
+$navbar-blue: #000099;
+nav {
+  // TODO: I wish we didn't need this, but we do, at least for the moment.
   background: {
     image: url("/images/navbar/navbar-bg.png");
     repeat: repeat-x;
   };
-  padding: 0px;
 
   & > ul {
     @extend .menu;
-    background-color: transparent;
 
-    & > li > a {
-      margin-top: rem-calc(16);
-      font: {
-        family: $avant-garde;
-        size: rem-calc(18);
-        weight: bolder;
+    & > li {
+      border-right: 1px solid $white;
+      vertical-align: inherit;
+
+      & > a {
+        background-color: $navbar-blue;
+        color: $white;
+        height: rem-calc(36);
+        max-height: rem-calc(36);
+        font: {
+          family: $avant-garde;
+          size: rem-calc(18);
+          weight: bolder;
+        }
+        text-transform: uppercase;
+        & > span {
+          position: relative;
+          top: rem-calc(10);
+        }
       }
-      // background-color: $navbar-blue;
-      color: $white;
-      text-transform: uppercase;
-      vertical-align: bottom;
-      border-right: 1px solid $body-background;
     }
-  }
 
-  #logo-small {
-    padding-top: 0px;
-    vertical-align: inherit;
-
-    a {
-      margin-top: 0px;
-      padding: 0px;
-    }
-  }
-
-  .dropdown {
-    // position: relative;
-    & > ul {
-      display: none;
-    }
-    &:hover > ul {
-      // background-color: white;
-      position: absolute;
-      // top: 100%;
-      // left: 0px;
-      border: 1px solid $navbar-blue;
-      display: block;
-      // padding-left: 0px;
-      // & > li li {
-      //   font-size: 90%;
-      // }
-    }
-    & > a:after {
-      content: " ▼";
-      font-size: 80%;
-    }
-    ul {
-      @include menu-direction(vertical);
-      ul {
-        @extend .nested;
-      }
+    .dropdown ul {
+      display: none; // TODO: we'll need to restore this, obviously
     }
   }
 }
 
-#breadcrumbs { // TODO: use Foundation breadcrumbs instead
-  font-size: 90%;
+#logo-small a {
+  background-color: inherit;
+  padding: {
+    left: 0px;
+    right: 0px;
+  }
+  img {
+    margin: 0px; // TODO: pad the right side of the image
+  }
 }
