@@ -1,14 +1,18 @@
 @import 'fonts/avant-garde';
+@import 'globals';
 
 @include foundation-menu;
 @include foundation-title-bar;
 @include foundation-top-bar;
 @include foundation-visibility-classes;
 
-$navbar-blue: #000099;
-
 .responsive-navbar {
   $navbar-menu-padding: rem-calc(10);
+
+  @mixin menu-text {
+    font-family: $avant-garde;
+    text-transform: uppercase;
+  }
 
   @mixin pad-menu-item {
     position: relative;
@@ -36,16 +40,15 @@ $navbar-blue: #000099;
           vertical-align: inherit;
 
           & > a {
+            @include menu-text;
             background-color: $navbar-blue;
             color: $white;
             height: rem-calc(36);
             max-height: rem-calc(36);
             font: {
-              family: $avant-garde;
               size: rem-calc(18);
               weight: bolder;
             }
-            text-transform: uppercase;
             & > span {
               @include pad-menu-item;
             }
@@ -85,8 +88,16 @@ $navbar-blue: #000099;
   }
 
   .title-bar {
-    span {
+    @include menu-text;
+
+    & > span {
+      font-size: 110%;
       @extend .title-bar-title
+    }
+
+    .period {
+      color: $logo-red;
+      font-weight: bolder;
     }
   }
 }

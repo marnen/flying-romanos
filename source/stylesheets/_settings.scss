@@ -1,6 +1,7 @@
 @import 'settings/settings';
 @import 'fonts/bree-serif';
 @import 'fonts/lato';
+@import 'globals';
 
 $body-font-family: $lato;
 $header-font-family: $bree-serif;
@@ -24,4 +25,13 @@ $header-sizes: (
 );
 
 $menu-item-padding: 0px 1rem;
+
+$titlebar-background: $navbar-blue;
+$titlebar-color: $logo-cyan;
+// $titlebar-padding: 0.5rem;
+// $titlebar-text-font-weight: bold;
+// $titlebar-icon-color: $white;
+// $titlebar-icon-color-hover: $medium-gray;
+// $titlebar-icon-spacing: 0.25rem;
+
 $topbar-background: $body-background;
