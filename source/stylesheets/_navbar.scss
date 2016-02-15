@@ -92,6 +92,10 @@ $navbar-blue: #000099;
 }
 
 #logo-small a {
+  @include breakpoint(medium down) {
+    display: none;
+  }
+
   background-color: inherit;
   padding: {
     left: 0px;
