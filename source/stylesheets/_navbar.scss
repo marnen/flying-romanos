@@ -1,43 +1,61 @@
 @import 'fonts/avant-garde';
 
 @include foundation-menu;
+@include foundation-title-bar;
 @include foundation-top-bar;
+@include foundation-visibility-classes;
 
 $navbar-blue: #000099;
-nav {
-  // TODO: I wish we didn't need this, but we do, at least for the moment.
-  background: {
-    image: url("/images/navbar/navbar-bg.png");
-    repeat: repeat-x;
-  };
 
-  & > ul {
-    @extend .menu;
+.responsive-navbar {
+  nav {
+    @include breakpoint(large) {
+      // TODO: I wish we didn't need this, but we do, at least for the moment.
+      background: {
+        image: url("/images/navbar/navbar-bg.png");
+        repeat: repeat-x;
+      };
+    }
 
-    & > li {
-      border-right: 1px solid $white;
-      vertical-align: inherit;
+    & > ul {
+      @include menu-base;
+      @include menu-direction(vertical);
 
-      & > a {
-        background-color: $navbar-blue;
-        color: $white;
-        height: rem-calc(36);
-        max-height: rem-calc(36);
-        font: {
-          family: $avant-garde;
-          size: rem-calc(18);
-          weight: bolder;
+      @include breakpoint(large) {
+        @include menu-direction(horizontal);
+
+        & > li {
+          border-right: 1px solid $white;
+          vertical-align: inherit;
+
+          & > a {
+            background-color: $navbar-blue;
+            color: $white;
+            height: rem-calc(36);
+            max-height: rem-calc(36);
+            font: {
+              family: $avant-garde;
+              size: rem-calc(18);
+              weight: bolder;
+            }
+            text-transform: uppercase;
+            & > span {
+              position: relative;
+              top: rem-calc(10);
+            }
+          }
         }
-        text-transform: uppercase;
-        & > span {
-          position: relative;
-          top: rem-calc(10);
+
+        .dropdown ul {
+          display: none; // TODO: we'll need to restore this, obviously
         }
       }
     }
+  }
 
-    .dropdown ul {
-      display: none; // TODO: we'll need to restore this, obviously
+  .title-bar {
+    span {
+      @extend .title-bar-title
     }
   }
 }
