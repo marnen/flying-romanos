@@ -8,6 +8,13 @@
 $navbar-blue: #000099;
 
 .responsive-navbar {
+  $navbar-menu-padding: rem-calc(10);
+
+  @mixin pad-menu-item {
+    position: relative;
+    top: $navbar-menu-padding;
+  }
+
   nav {
     @include breakpoint(large) {
       // TODO: I wish we didn't need this, but we do, at least for the moment.
@@ -40,14 +47,38 @@ $navbar-blue: #000099;
             }
             text-transform: uppercase;
             & > span {
-              position: relative;
-              top: rem-calc(10);
+              @include pad-menu-item;
             }
           }
         }
 
-        .dropdown ul {
-          display: none; // TODO: we'll need to restore this, obviously
+        .dropdown {
+          // position: relative;
+          & > ul {
+            display: none;
+          }
+          &:hover > ul {
+            background-color: white;
+            position: absolute;
+            // top: 100%;
+            // left: 0px;
+            border: 1px solid $navbar-blue;
+            display: block;
+            // padding-left: 0px;
+            // & > li li {
+            //   font-size: 90%;
+            // }
+          }
+          & > a:after {
+            @include pad-menu-item;
+            content: " ▼";
+            font-size: 80%;
+          }
+          ul {
+            @include menu-direction(vertical);
+            @include menu-nested;
+            white-space: nowrap;
+          }
         }
       }
     }
