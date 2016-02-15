@@ -91,6 +91,10 @@ $navbar-blue: #000099;
   }
 }
 
+#breadcrumbs { // TODO: use Foundation breadcrumbs instead
+  font-size: 90%;
+}
+
 #logo-small a {
   @include breakpoint(medium down) {
     display: none;
