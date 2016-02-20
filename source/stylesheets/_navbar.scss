@@ -1,107 +1,122 @@
-@import "compass/typography/lists/horizontal-list";
-@import "avant_garde";
+@import 'fonts/avant-garde';
+@import 'globals';
 
-$navbar_blue: #000099;
+@include foundation-menu;
+@include foundation-title-bar;
+@include foundation-top-bar;
+@include foundation-visibility-classes;
 
-@mixin border-right {
-  border-right: 1px solid white; }
+.responsive-navbar {
+  $navbar-menu-padding: rem-calc(10);
 
-#breadcrumbs {
-  font-size: 90%;
-  clear: left;
-}
+  @mixin menu-text {
+    font-family: $avant-garde;
+    text-transform: uppercase;
+  }
 
-.menu {
-  position: relative;
-  & > ul {
-    display: none; }
-  &:hover > ul {
-    background-color: white;
-    position: absolute;
-    top: 100%;
-    left: 0px;
-    border: 1px solid $navbar_blue;
-    display: block;
-    padding-left: 0px;
-    & > li li {
-      font-size: 90%;
-    }
+  @mixin pad-menu-item {
+    position: relative;
+    top: $navbar-menu-padding;
   }
-  ul {
-    @include no-bullet;
-    text-align: left;
-    font-weight: normal;
-  }
-  li ul {
-    padding-left: 1.5em;
-  }
-  & > a:after {
-    content: " ▼";
-    font-size: 80%;
-  }
-}
 
-$unit: 40px;
-
-nav {
-  min-height: 54px;
-  background: {
-    image: url("/images/navbar/navbar-bg.png");
-    repeat: repeat-x;
-  };
-  #logo {
-    width: $unit * 4;
-    float: left;
-  }
-  #logo-small {
-    width: $unit * 6;
-    float: left;
-    @include border-right;
-  }
-  & > ul {
-    @include horizontal-list-container;
-    overflow: inherit;
-    & > li {
-      @include horizontal-list-item(0px);
-      padding: {
-        top: 18px;
+  nav {
+    @include breakpoint(large) {
+      // TODO: I wish we didn't need this, but we do, at least for the moment.
+      background: {
+        image: url("/images/navbar/navbar-bg.png");
+        repeat: repeat-x;
       };
-      @include border-right;
-      display: table;
-      table-layout: fixed;
-      height: 36px;
-      text-align: center;
-      width: $unit * 2;
-      &#nav-about, &#nav-funstuff, &#nav-contact {
-        width: $unit * 3;
-      }
-      &#nav-web-dev {
-        width: $unit * 5;
-      }
-      & > a {
-        &:link {
-          text-decoration: none;
+    }
+
+    & > ul {
+      @include menu-base;
+      @include menu-direction(vertical);
+
+      @include breakpoint(large) {
+        @include menu-direction(horizontal);
+
+        & > li {
+          border-right: 1px solid $white;
+          vertical-align: inherit;
+
+          & > a {
+            @include menu-text;
+            background-color: $navbar-blue;
+            color: $white;
+            height: rem-calc(36);
+            max-height: rem-calc(36);
+            font: {
+              size: rem-calc(18);
+              weight: bolder;
+            }
+            & > span {
+              @include pad-menu-item;
+            }
+          }
         }
-        &:hover {
-          text-decoration: underline;
-          color: white;
+
+        .dropdown {
+          // position: relative;
+          & > ul {
+            display: none;
+          }
+          &:hover > ul {
+            background-color: white;
+            position: absolute;
+            // top: 100%;
+            // left: 0px;
+            border: 1px solid $navbar-blue;
+            display: block;
+            // padding-left: 0px;
+            // & > li li {
+            //   font-size: 90%;
+            // }
+          }
+          & > a:after {
+            @include pad-menu-item;
+            content: " ▼";
+            font-size: 80%;
+          }
+          ul {
+            @include menu-direction(vertical);
+            @include menu-nested;
+            white-space: nowrap;
+          }
         }
-        &:visited {
-          color: white;
-        }
-        background-color: $navbar_blue;
-        color: white;
-        font-family: $avant_garde;
-        font-size: 18px;
-        display: table-cell;
-        width: 100%;
-        vertical-align: middle;
-        text-transform: uppercase;
       }
+    }
+  }
+
+  .title-bar {
+    @include menu-text;
+
+    & > span {
+      font-size: 110%;
+      @extend .title-bar-title
+    }
+
+    .period {
+      color: $logo-red;
+      font-weight: bolder;
     }
   }
 }
 
-[href$='.pdf'] {
-  @include icon("/images/pdf-icon-16x16.png", 16px, 16px, 2px);
+#breadcrumbs { // TODO: use Foundation breadcrumbs instead
+  font-size: 90%;
+}
+
+#logo-small a {
+  @include breakpoint(medium down) {
+    display: none;
+  }
+
+  background-color: inherit;
+  padding: {
+    left: 0px;
+    right: 0px;
+  }
+  img {
+    margin: 0px; // TODO: pad the right side of the image
+  }
 }

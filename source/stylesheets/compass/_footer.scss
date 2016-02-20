@@ -1,0 +1,11 @@
+#footer {
+  border-top: 1px solid black;
+  font-size: 90%;
+  @include quiet;
+  .badges {
+    margin-top: 6px;
+    text-align: right;
+    float: right; }
+  p {
+    margin: 0px; }
+}

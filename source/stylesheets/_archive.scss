@@ -1,0 +1,9 @@
+@import 'icon';
+
+.archive-link {
+  @include icon('/images/library-16x16.png', 16px, 16px, 2px)
+}
+
+a[href^="http://web.archive.org/"] {
+  @extend .archive-link;
+}

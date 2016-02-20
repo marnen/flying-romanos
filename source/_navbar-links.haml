@@ -1,27 +1,57 @@
-%ul
-  %li#nav-home= link_to 'Home', '/'
-  %li#nav-about.menu
-    = link_to 'About me', '/about.html'
-    %ul>
-      %li= link_to 'General information', '/about.html'
-      %li
-        Résumés
-        %ul
-          %li== Music (#{link_to 'PDF', '/resume_m.pdf'})
-          %li== Programming (#{link_to 'PDF', '/resume.pdf'})
-  %li#nav-music= link_to 'Music', '/music.html'
-  %li#nav-web-dev= link_to 'Web development', '/web_development.html'
-  %li#nav-links= link_to 'Links', '/links.html'
-  %li#nav-funstuff.menu
-    = link_to 'Fun stuff!', '/funstuff'
-    %ul>
-      %li= link_to "SCA Humor", "/funstuff/sca.html"
-      %li
-        = link_to "E-mailed Funnies", "/funstuff/email/index.html"
-        %ul
-          %li= link_to "Bio-Optic Organized Knowledge Device", "/funstuff/email/book.html"
-          %li= link_to "Celtic Tune V*irus Warning", "/funstuff/email/celtic.html"
-          %li= link_to "Somebody thinks Clinton thinks he's God", "/funstuff/email/clinton.html"
-          %li= link_to "Dilbert Management Training", "/funstuff/email/dilbert.html"
-          %li= link_to "Error Message Haiku", "/funstuff/email/errorhaiku.html"
-  %li#nav-contact= link_to 'Contact', '/contact.html'
+%li#nav-home
+  = link_to '/' do
+    %span Home
+%li#nav-about.dropdown
+  = link_to '/about.html' do
+    %span About me
+  %ul>
+    %li
+      = link_to '/about.html' do
+        %span General information
+    %li
+      Résumés
+      %ul
+        %li
+          = link_to '/resume_m.pdf' do
+            %span Music
+        %li
+          = link_to '/resume.pdf' do
+            %span Programming
+%li#nav-music
+  = link_to '/music.html' do
+    %span Music
+%li#nav-web-dev
+  = link_to '/web_development.html' do
+    %span Web development
+%li#nav-links
+  = link_to '/links.html' do
+    %span Links
+%li#nav-funstuff.dropdown
+  = link_to '/funstuff' do
+    %span Fun stuff!
+  %ul>
+    %li
+      = link_to "/funstuff/sca.html" do
+        %span SCA Humor
+    %li
+      = link_to "/funstuff/email/index.html" do
+        %span E-mailed Funnies
+      %ul
+        %li
+          = link_to "/funstuff/email/book.html" do
+            %span Bio-Optic Organized Knowledge Device
+        %li
+          = link_to "/funstuff/email/celtic.html" do
+            %span Celtic Tune V*irus Warning
+        %li
+          = link_to "/funstuff/email/clinton.html" do
+            %span Somebody thinks Clinton thinks he's God
+        %li
+          = link_to "/funstuff/email/dilbert.html" do
+            %span Dilbert Management Training
+        %li
+          = link_to "/funstuff/email/errorhaiku.html" do
+            %span Error Message Haiku
+%li#nav-contact
+  = link_to '/contact.html' do
+    %span Contact
