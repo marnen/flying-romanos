@@ -15,3 +15,10 @@ a {
 body {
   margin: $topbar-padding;
 }
+
+cite {
+  display: inline;
+  &::before, &:before {
+    content: '';
+  }
+}
