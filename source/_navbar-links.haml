@@ -17,9 +17,19 @@
         %li
           = link_to '/resume.pdf' do
             %span Programming
-%li#nav-music
-  = link_to '/music.html' do
+%li#nav-music.dropdown
+  = link_to '#' do
     %span Music
+  %ul>
+    %li
+      = link_to '/composition.html' do
+        %span Composition
+    %li
+      = link_to '/performance.html' do
+        %span Performance
+    %li
+      = link_to '/music_copying.html' do
+        %span Engraving and Copying
 %li#nav-web-dev
   = link_to '/web_development.html' do
     %span Web development

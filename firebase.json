@@ -16,6 +16,11 @@
       "source": "/tbird/*",
       "destination": "/web_development.html",
       "type": 301
+    },
+    {
+      "source": "/music.html",
+      "destination": "/index.html",
+      "type": 301
     }
   ]
 }
