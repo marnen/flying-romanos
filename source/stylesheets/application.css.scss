@@ -31,8 +31,9 @@ table.work-list {
   }
 
   td, th {
-    &.title { @include grid-column(3); }
-    &.notes { @include grid-column(5); }
-    &.music, &.recording { @include grid-column(2); }
+    &.title { @include grid-column(2); }
+    &.notes { @include grid-column(4); }
+    &.music { @include grid-column(2); }
+    &.recording { @include grid-column(4); }
   }
 }
