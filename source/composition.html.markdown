@@ -4,7 +4,21 @@ title: Composition
 
 I've been composing as long as I've been playing music; I received First Prize in the Aaron Copland Competition for Young Composers in 1988. I particularly enjoy writing songs and chamber music. My compositions tend to be rather eclectic, often combining classical forms with popular-influenced materials; many of my more recent works reflect my interest in early music.
 
-Some of my compositions are available for download as PDF files (I will add more as time permits):
+My composition teachers have included Myron Fink, [Carla Kihlstedt], [Hankus Netsky], [Anthony Newman], [Malcolm Peyton], and [Andrew W. Thomas], among others. In festival settings, I've also worked with Stephen Albert, [Tania León][tania leon], and [Jeff Scott].
+
+[andrew w. thomas]: http://composers.com/andrew-william-thomas
+[anthony newman]: http://www.anthonynewmanmusician.org
+[carla kihlstedt]: http://carlakihlstedt.com
+[hankus netsky]: http://necmusic.edu/faculty/hankus-netsky
+[jeff scott]: http://www.musicbyjeffscott.com/
+[malcolm peyton]: http://necmusic.edu/faculty/malcolm-c-peyton
+[tania leon]: http://www.tanialeon.com
+
+Below is a list of my recent works, with scores and links to recordings when available.
+
+Note that all my sheet music is available for free download; if you want to perform it, just make sure to send me a program so I can properly report the performance to [ASCAP] and receive applicable royalties. Better yet, contact me in advance—I always enjoy hearing my work performed, and of course I'd be happy to answer any questions about it!
+
+[ascap]: http://www.ascap.com
 
 <cite>Fantasia on Greensleeves</cite> for flute, violin, and viola
 : This is a short work that I wrote as a surprise for two friends of mine. It was written to be easy enough for them to sight-read, but it's not as simple as that fact might suggest. The piece uses two versions of <cite>Greensleeves</cite>: the familiar modern version (in the outer sections) and a 17th-century version (in the middle section).
