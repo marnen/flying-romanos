@@ -22,3 +22,18 @@ cite {
     content: '';
   }
 }
+
+table.work-list {
+  @include grid-row();
+
+  tr:not(:first-child) {
+    border-top: 1px solid black;
+  }
+
+  td, th {
+    &.title { @include grid-column(2); }
+    &.notes { @include grid-column(4); }
+    &.music { @include grid-column(2); }
+    &.recording { @include grid-column(4); }
+  }
+}
