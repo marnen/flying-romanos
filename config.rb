@@ -42,6 +42,8 @@ set :css_dir, 'stylesheets'
 set :sass_assets_paths, ['bower_components/foundation-sites/scss']
 import_path File.expand_path('bower_components', app.root)
 
+set :markdown, smartypants: true
+
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
