@@ -34,9 +34,11 @@ namespace :deploy do
 
   task :push do
     git_commit = `git rev-parse HEAD`.strip
-    deploy_output = `firebase deploy:hosting -j -m 'Git commit #{git_commit}'`
+    deploy_output = `firebase deploy --only hosting -j -m 'Git commit #{git_commit}'`
     deploy_output.sub! %r(\A[^{]*), ''
     @deploy_status = JSON.parse deploy_output
+    warn "Deploy status:"
+    warn @deploy_status.inspect
   end
 end
 

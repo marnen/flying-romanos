@@ -1,5 +1,5 @@
 {
-  "firebase": "marnen",
+  "firebase": "firebase-marnen",
   "public": "build",
   "ignore": [
     "firebase.json",
