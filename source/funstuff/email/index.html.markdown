@@ -6,6 +6,6 @@ Like most Netizens, I've received a fair amount of forwarded funny stuff by e-ma
 
 * [Bio-Optic Organized Knowledge Device](book.html), received about 1 Feb 1998
 * [Celtic Tune V*irus Warning from Ir-Trad](celtic.html), received 2 Apr 1998 from Rich &amp; Debbie Simons (<duetto@bigfoot.com>)
-* [Dilbert Management Training](dilbert.html), received 28 Mar 1998 from Robin Russell (<rbnrussell@aol.com>)
-* [Error Message Haiku](errorhaiku.html), received 2 Mar 1998 from Robin Russell (<rbnrussell@aol.com>)
+* [Dilbert Management Training](dilbert.html), received 28 Mar 1998 from Robin Russell (<rbnrussell@gmail.com>)
+* [Error Message Haiku](errorhaiku.html), received 2 Mar 1998 from Robin Russell (<rbnrussell@gmail.com>)
 * [Somebody Thinks Clinton Thinks He's God](clinton.html), received 13 Feb 1998 from Katie Auslander (<purplekatie@juno.com>)
