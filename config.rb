@@ -40,7 +40,11 @@ activate :breadcrumbs
 
 set :css_dir, 'stylesheets'
 set :sass_assets_paths, ['bower_components/foundation-sites/scss']
-import_path File.expand_path('bower_components', app.root)
+bower_path = File.expand_path('bower_components', app.root)
+import_path bower_path
+compass_config do |config| # TODO: remove when we remove Compass
+  config.add_import_path File.join(bower_path, 'foundation-sites/scss')
+end
 
 set :markdown, smartypants: true
 
