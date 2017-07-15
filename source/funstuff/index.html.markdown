@@ -1,0 +1,99 @@
+---
+title: Fun Stuff!
+---
+
+This is where I've put all my humorous things. At the moment, most of those are either [SCA-related](sca.html) or things people have [e-mailed](email) me.
+
+<section markdown="1">
+[Geek Code][geekcode] v. 3.12
+=============================================
+
+Click on any part of the code for an explanation.
+
+[GMU$/IT$/FA>$/O][geek_type]{:target='geek'}
+[d+][geek_dress]{:target='geek'}
+[s+:][geek_shape]{:target='geek'}
+[a--][geek_age]{:target='geek'}
+[C+(+++)$][geek_comp]{:target='geek'}
+[UA+(---)>$][geek_unix]{:target='geek'}
+[P+][geek_perl]{:target='geek'}
+[L][geek_linux]{:target='geek'}
+[E+(+++)][geek_emacs]{:target='geek'}
+[W++>$][geek_web]{:target='geek'}
+[N++(+)][geek_news]{:target='geek'}
+[o?][geek_oracle]{:target='geek'}
+[K][geek_kibo]{:target='geek'}
+[w---][geek_win]{:target='geek'}
+[O-][geek_os2]{:target='geek'}
+[M++][geek_mac]{:target='geek'}
+[V--][geek_vms]{:target='geek'}
+[PS+++][geek_psoc]{:target='geek'}
+[PE+++][geek_pecon]{:target='geek'}
+[Y+][geek_cypher]{:target='geek'}
+[PGP--(+)][geek_pgp]{:target='geek'}
+[t++(+++)(\*)][geek_trek]{:target='geek'}
+[5?][geek_b5]{:target='geek'}
+[X?][geek_xfile]{:target='geek'}
+[R\*][geek_role]{:target='geek'}
+[tv--()][geek_tv]{:target='geek'}
+[b++(++++)][geek_books]{:target='geek'}
+[DI++][geek_dogbert]{:target='geek'}
+[D+(---)][geek_descent]{:target='geek'}
+[G-][geek_geek]{:target='geek'}
+[e+(++)(--)][geek_ed]{:target='geek'}
+[h!][geek_house]{:target='geek'}
+[r][geek_relat]{:target='geek'}
+[y-(--)][geek_sex]{:target='geek'}
+
+[geekcode]: http://www.geekcode.com
+
+[geek_type]: http://www.geekcode.com/geek.html#type
+[geek_dress]: http://www.geekcode.com/geek.html#dress
+[geek_shape]: http://www.geekcode.com/geek.html#shape
+[geek_age]: http://www.geekcode.com/geek.html#age
+[geek_comp]: http://www.geekcode.com/geek.html#comp
+[geek_unix]: http://www.geekcode.com/geek.html#unix
+[geek_perl]: http://www.geekcode.com/geek.html#perl
+[geek_linux]: http://www.geekcode.com/geek.html#linux
+[geek_emacs]: http://www.geekcode.com/geek.html#emacs
+[geek_web]: http://www.geekcode.com/geek.html#web
+[geek_news]: http://www.geekcode.com/geek.html#news
+[geek_oracle]: http://www.geekcode.com/geek.html#oracle
+[geek_kibo]: http://www.geekcode.com/geek.html#kibo
+[geek_win]: http://www.geekcode.com/geek.html#win
+[geek_os2]: http://www.geekcode.com/geek.html#os2
+[geek_mac]: http://www.geekcode.com/geek.html#mac
+[geek_vms]: http://www.geekcode.com/geek.html#vms
+[geek_psoc]: http://www.geekcode.com/geek.html#psoc
+[geek_pecon]: http://www.geekcode.com/geek.html#pecon
+[geek_cypher]: http://www.geekcode.com/geek.html#cypher
+[geek_pgp]: http://www.geekcode.com/geek.html#pgp
+[geek_trek]: http://www.geekcode.com/geek.html#trek
+[geek_b5]: http://www.geekcode.com/geek.html#b5
+[geek_xfile]: http://www.geekcode.com/geek.html#xfile
+[geek_role]: http://www.geekcode.com/geek.html#role
+[geek_tv]: http://www.geekcode.com/geek.html#tv
+[geek_books]: http://www.geekcode.com/geek.html#books
+[geek_dogbert]: http://www.geekcode.com/geek.html#dogbert
+[geek_descent]: http://www.geekcode.com/geek.html#descent
+[geek_geek]: http://www.geekcode.com/geek.html#geek
+[geek_ed]: http://www.geekcode.com/geek.html#ed
+[geek_house]: http://www.geekcode.com/geek.html#house
+[geek_relat]: http://www.geekcode.com/geek.html#relat
+[geek_sex]: http://www.geekcode.com/geek.html#sex
+</section>
+
+<section markdown="1">
+# Other Humorous Sites
+
+* [Jeff Bigler](mailto:jcb@mit.edu)'s [collection of instrument jokes][instrument jokes]. Probably the largest such on the Net, and featured in [<cite>Dave Barry In Cyberspace</cite>][cyberspace].
+* The [Dysfunctional Family Circus][dfc]. Bil Keane's worst nightmare...well, you'll just have to see it for yourself! Not for the easily offended.
+* [Argon Zark][zark], a wonderful digital comic book by Charley Parker.
+* [The Useless Pages][useless]. The name says it all, no?
+
+[instrument jokes]: http://www.mit.edu/people/jcb/jokes/
+[cyberspace]: http://www.amazon.com/exec/obidos/ASIN/0449912302/marnenlaibowkose
+[dfc]: http://dfc.furr.org/
+[zark]: http://www.zark.com/
+[useless]: http://web.archive.org/web/20030802014543/http://www.go2net.com/useless/index.html
+</section>

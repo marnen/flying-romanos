@@ -1,0 +1,5 @@
+%head
+  %meta{:'http-equiv' => 'content-type', :content => 'text-html;charset=utf-8'}
+  %title&= current_page.data.title.blank? ? 'The Flying Romanos: English Country Dance Band' : ['The Flying Romanos', current_page.data.title].join(' | ')
+  %link{:rel => 'icon', :type => 'image/vnd.microsoft.icon', :href => '/images/romanos/favicon.ico'}
+  = stylesheet_link_tag :romanos

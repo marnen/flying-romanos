@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Avant Garde';
+    src: url('/fonts/AvantGardeBook.eot');
+    src: url('/fonts/AvantGardeBook.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/AvantGardeBook.woff') format('woff'),
+         url('/fonts/AvantGardeBook.ttf') format('truetype'),
+         url('/fonts/AvantGardeBook.svg#AvantGarde-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+};
+
+$avant-garde: "Avant Garde", AvantGarde, "Century Gothic", Futura, sans-serif;

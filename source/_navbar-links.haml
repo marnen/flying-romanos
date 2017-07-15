@@ -1,0 +1,70 @@
+%li#nav-home
+  = link_to '/' do
+    %span Home
+%li#nav-about.dropdown
+  = link_to '/about.html' do
+    %span About me
+  %ul>
+    %li
+      = link_to '/about.html' do
+        %span General information
+    %li
+      Résumés
+      %ul
+        %li
+          = link_to '/resume_m.pdf' do
+            %span Music
+        %li
+          = link_to '/resume.pdf' do
+            %span Programming
+%li#nav-music.dropdown
+  = link_to '#' do
+    %span Music
+  %ul>
+    %li
+      = link_to '/resume_m.pdf' do
+        %span Résumé
+    %li
+      = link_to '/composition.html' do
+        %span Composition
+    %li
+      = link_to '/performance.html' do
+        %span Performance
+    %li
+      = link_to '/music_copying.html' do
+        %span Engraving and Copying
+%li#nav-web-dev
+  = link_to '/web_development.html' do
+    %span Web development
+%li#nav-links
+  = link_to '/links.html' do
+    %span Links
+%li#nav-funstuff.dropdown
+  = link_to '/funstuff' do
+    %span Fun stuff!
+  %ul>
+    %li
+      = link_to "/funstuff/sca.html" do
+        %span SCA Humor
+    %li
+      = link_to "/funstuff/email/index.html" do
+        %span E-mailed Funnies
+      %ul
+        %li
+          = link_to "/funstuff/email/book.html" do
+            %span Bio-Optic Organized Knowledge Device
+        %li
+          = link_to "/funstuff/email/celtic.html" do
+            %span Celtic Tune V*irus Warning
+        %li
+          = link_to "/funstuff/email/clinton.html" do
+            %span Somebody thinks Clinton thinks he's God
+        %li
+          = link_to "/funstuff/email/dilbert.html" do
+            %span Dilbert Management Training
+        %li
+          = link_to "/funstuff/email/errorhaiku.html" do
+            %span Error Message Haiku
+%li#nav-contact
+  = link_to '/contact.html' do
+    %span Contact

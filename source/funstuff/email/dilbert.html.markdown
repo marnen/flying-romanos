@@ -1,0 +1,16 @@
+---
+title: Dilbert Management Training
+copyright: false
+---
+
+A magazine ran a Dilbert quotes contest. These are actual quotes from managers out there:
+
+* As of tomorrow, employees will only be able to access the building using individual security cards. Pictures will be taken next Wednesday and employees will receive their cards in two weeks.
+* What I need is a list of specific unknown problems we will encounter.
+* How long is this Beta guy going to keep testing our stuff?
+* E-mail is not to be used to pass on information or data. It should be used only to be used for company business.
+* Turnover is good for the company, as it proves that we are doing a good job in training people.
+* This project is so important, we can't let things that are more important interfere with it.
+* Doing it right is no excuse for not meeting the schedule.
+* No one will believe you solved this problem in one day! We've been working on it for months. Now, go act busy for a few weeks and I'll let you know when it's time to tell them.
+

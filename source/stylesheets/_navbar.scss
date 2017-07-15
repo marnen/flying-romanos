@@ -1,0 +1,122 @@
+@import 'fonts/avant-garde';
+@import 'globals';
+
+@include foundation-menu;
+@include foundation-title-bar;
+@include foundation-top-bar;
+@include foundation-visibility-classes;
+
+.responsive-navbar {
+  $navbar-menu-padding: rem-calc(10);
+
+  @mixin menu-text {
+    font-family: $avant-garde;
+    text-transform: uppercase;
+  }
+
+  @mixin pad-menu-item {
+    position: relative;
+    top: $navbar-menu-padding;
+  }
+
+  nav {
+    @include breakpoint(large) {
+      // TODO: I wish we didn't need this, but we do, at least for the moment.
+      background: {
+        image: url("/images/navbar/navbar-bg.png");
+        repeat: repeat-x;
+      };
+    }
+
+    & > ul {
+      @include menu-base;
+      @include menu-direction(vertical);
+
+      @include breakpoint(large) {
+        @include menu-direction(horizontal);
+
+        & > li {
+          border-right: 1px solid $white;
+          vertical-align: inherit;
+
+          & > a {
+            @include menu-text;
+            background-color: $navbar-blue;
+            color: $white;
+            height: rem-calc(36);
+            max-height: rem-calc(36);
+            font: {
+              size: rem-calc(18);
+              weight: bolder;
+            }
+            & > span {
+              @include pad-menu-item;
+            }
+          }
+        }
+
+        .dropdown {
+          // position: relative;
+          & > ul {
+            display: none;
+          }
+          &:hover > ul {
+            background-color: white;
+            position: absolute;
+            // top: 100%;
+            // left: 0px;
+            border: 1px solid $navbar-blue;
+            display: block;
+            // padding-left: 0px;
+            // & > li li {
+            //   font-size: 90%;
+            // }
+          }
+          & > a:after {
+            @include pad-menu-item;
+            content: " ▼";
+            font-size: 80%;
+          }
+          ul {
+            @include menu-direction(vertical);
+            @include menu-nested;
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+  }
+
+  .title-bar {
+    @include menu-text;
+
+    & > span {
+      font-size: 110%;
+      @extend .title-bar-title
+    }
+
+    .period {
+      color: $logo-red;
+      font-weight: bolder;
+    }
+  }
+}
+
+#breadcrumbs { // TODO: use Foundation breadcrumbs instead
+  font-size: 90%;
+}
+
+#logo-small a {
+  @include breakpoint(medium down) {
+    display: none;
+  }
+
+  background-color: inherit;
+  padding: {
+    left: 0px;
+    right: 0px;
+  }
+  img {
+    margin: 0px; // TODO: pad the right side of the image
+  }
+}

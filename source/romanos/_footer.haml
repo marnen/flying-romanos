@@ -1,0 +1,7 @@
+- source_file = current_page.source_file
+- @mtime = File.mtime source_file
+#footer
+  %p&== http://www.marnen.org/#{current_path}
+  %p== Site design by #{link_to 'Marnen Laibow-Koser', 'http://www.marnen.org'} (#{link_to 'marnen@marnen.org', 'mailto:marnen@marnen.org', :class => 'mailto'}); logo artwork by Judith DeBiase.
+  %p&== This page last modified #{@mtime.strftime '%A, %e %B %Y'}.
+= partial 'romanos/analytics'
