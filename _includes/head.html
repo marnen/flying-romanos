@@ -1,6 +1,12 @@
 <head>
   <meta http-equiv='content-type' content='text-html;charset=utf-8' />
-  <title>current_page.data.title.blank? ? 'The Flying Romanos: English Country Dance Band' : ['The Flying Romanos', current_page.data.title].join(' | ')</title> <!-- TODO: fix -->
+  <title>
+    {% if page.title %}
+      The Flying Romanos | {{ page.title }}
+    {% else %}
+      The Flying Romanos: English Country Dance Band
+    {% endif %}
+  </title>
   <link rel='icon' type='image/vnd.microsoft.icon' href='/images/favicon.ico' />
   <link rel='stylesheet' href='/stylesheets/romanos.css' />
 </head>

@@ -1,11 +1,6 @@
-<!--
-  TODO: fix
-  - source_file = current_page.source_file
-  - @mtime = File.mtime source_file
--->
 <div id='footer'>
-  <p>http://www.marnen.org/#{current_path}</p> <!-- TODO: fix -->
+  <p>http://www.marnen.org/romanos{{ page.url }}</p>
   <p>Site design by <a href='http://www.marnen.org'>Marnen Laibow-Koser</a> (<a href='mailto:marnen@marnen.org' class='mailto'>marnen@marnen.org</a>); logo artwork by Judith DeBiase.</p>
-  <p>This page last modified #{@mtime.strftime '%A, %e %B %Y'}</p>
+  <p>This page last modified {{ site.time | date: '%A, %e %B %Y' }} <!-- TODO: can we get this for the current file? --></p>
 </div>
 {% include analytics.html %}
