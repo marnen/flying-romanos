@@ -16,6 +16,6 @@ Of course, if you can't get to hear us in person, you might want to listen to ou
 
 **E-mail us!** We like mail!
 
-<span class='romano'>Robin</span> (<rbnrussell@gmail.com>) is the person to contact for bookings (dances, parties, special events,...).<br />
-Or perhaps you're looking for <span class='romano'>Marnen</span> (<marnen@marnen.org>)<br />
-or <span class='romano'>Norma</span> (<castlenorma@yahoo.com>)?
+<span class='romano'>Robin</span> (<rbnrussell@gmail.com>{: .mailto}) is the person to contact for bookings (dances, parties, special events,...).<br />
+Or perhaps you're looking for <span class='romano'>Marnen</span> (<marnen@marnen.org>{: .mailto})<br />
+or <span class='romano'>Norma</span> (<castlenorma@yahoo.com>{: .mailto})?
