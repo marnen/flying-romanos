@@ -2,8 +2,8 @@
 ---
 
 @import compass/utilities/general
-@import compass/utilities/links
-@import compass/utilities/text
+@import compass/typography/links
+@import compass/typography/text
 @import compass/css3/inline-block
 
 // Set a few constants.
@@ -28,7 +28,7 @@ $text_size: 90%
 
 // Convenience function: setting up the common parameters for the navbar.
 =navbar-sprite($url, $width: 133px, $height: 31px)
-  +replace-text($url, 0, 0)
+  +replace-text(url($url), 0, 0)
   width: $width
   height: $height
   +sprite(0px, $height * -1)
@@ -77,22 +77,22 @@ a.mailto
     :float left
     #home
       +inline-block
-      +navbar-sprite("/images/romanos/home.png")
+      +navbar-sprite("/images/home.png")
     #appearances
       +inline-block
-      +navbar-sprite("/images/romanos/appearances.png")
+      +navbar-sprite("/images/appearances.png")
     #recordings
       +inline-block
-      +navbar-sprite("/images/romanos/recordings.png")
+      +navbar-sprite("/images/recordings.png")
   #pix
     #ro, #ma, #no
       +inline-block
     #ro
-      +navbar-sprite("/images/romanos/ro.jpg", 86px, 101px)
+      +navbar-sprite("/images/ro.jpg", 86px, 101px)
     #ma
-      +navbar-sprite("/images/romanos/ma.jpg", 86px, 101px)
+      +navbar-sprite("/images/ma.jpg", 86px, 101px)
     #no
-      +navbar-sprite("/images/romanos/no.jpg", 86px, 101px)
+      +navbar-sprite("/images/no.jpg", 86px, 101px)
 
 #footer
   :border-top 1px solid black
