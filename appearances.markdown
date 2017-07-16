@@ -1,6 +1,6 @@
 ---
-layout: 'romanos'
-title: 'Appearances'
+title: Appearances
+layout: romanos
 ---
 
 ## The Flying Romanos Flit About: Some Upcoming Appearances

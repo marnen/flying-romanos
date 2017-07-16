@@ -1,6 +1,6 @@
 ---
-layout: 'romanos'
-title: 'Recordings'
+title: Recordings
+layout: romanos
 ---
 
 ## The Flying Romanos Take Off!
