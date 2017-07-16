@@ -20,4 +20,6 @@ defaults:
     type: pages
   values:
     layout: page
-permalink: pretty
+permalink: none
+gems:
+  - jekyll-sass-converter
