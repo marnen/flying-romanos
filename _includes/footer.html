@@ -1,0 +1,11 @@
+<!--
+  TODO: fix
+  - source_file = current_page.source_file
+  - @mtime = File.mtime source_file
+-->
+<div id='footer'>
+  <p>http://www.marnen.org/#{current_path}</p> <!-- TODO: fix -->
+  <p>Site design by <a href='http://www.marnen.org'>Marnen Laibow-Koser</a> (<a href='mailto:marnen@marnen.org' class='mailto'>marnen@marnen.org</a>); logo artwork by Judith DeBiase.</p>
+  <p>This page last modified #{@mtime.strftime '%A, %e %B %Y'}</p>
+</div>
+{% include analytics.html %}
